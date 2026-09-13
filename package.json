@@ -1,0 +1,18 @@
+{
+  "name": "egner-content-hub",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "npm run validate && next build",
+    "start": "next start",
+    "test": "node --test",
+    "validate": "node scripts/validate-content.js"
+  },
+  "dependencies": {
+    "next": "16.3.5",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  }
+}
