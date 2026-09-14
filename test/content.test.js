@@ -3,6 +3,7 @@ import test from "node:test";
 
 import posts from "../content/blog.js";
 import technologies from "../content/techStack.js";
+import { videoCapabilities } from "../content/videoWork.js";
 import {
   getBlog,
   getBlogPost,
@@ -59,4 +60,9 @@ test("technology catalog is flat and keyed by slug", () => {
 
 test("projects are available as a keyed collection", () => {
   assert.equal(getProjects()["davis-defense"].slug, "davis-defense");
+});
+
+test("video capabilities retain direct keyed lookup", () => {
+  assert.equal(videoCapabilities.production.slug, "production");
+  assert.equal(videoCapabilities["video-seo"].label, "Video SEO");
 });

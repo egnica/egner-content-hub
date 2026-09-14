@@ -23,7 +23,7 @@ Content is authored as JavaScript data modules:
   keyed project map.
 - `content/techStack.js` is a flat object keyed by technology slug. Categories
   are properties rather than nested arrays.
-- `content/videoWork.js` contains video work, capabilities, and hub assets.
+- `content/videoWork.js` contains ordered video work, capabilities keyed by slug, and hub assets.
 - `content/sites.js` defines site identities, routes, and canonical eligibility.
 
 Technologies do not store their own project lists. Projects and videos reference
@@ -56,7 +56,7 @@ not opted into GIGnovate. Those choices can be changed post by post later.
 | `/api/blog` | Published posts keyed by slug |
 | `/api/projects` | Projects keyed by slug |
 | `/api/tech-stack` | Flat technology catalog plus category order |
-| `/api/video-work` | Ordered video/webpage items, capabilities, and shared hub assets |
+| `/api/video-work` | Ordered video/webpage items, capabilities keyed by slug, and shared hub assets |
 
 Every endpoint accepts a `site` query parameter:
 

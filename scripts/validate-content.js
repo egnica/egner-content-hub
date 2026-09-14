@@ -20,6 +20,7 @@ function validateKeyedCollection(collection, name) {
 validateKeyedCollection(posts, "blog");
 validateKeyedCollection(projects, "projects");
 validateKeyedCollection(technologies, "technologies");
+validateKeyedCollection(videoCapabilities, "videoCapabilities");
 
 check(!canonicalSiteIds.includes("latestartdev"), "LateStartDev cannot be canonical");
 check(sites.latestartdev?.canBeCanonical === false, "LateStartDev must remain noncanonical");
@@ -53,7 +54,7 @@ for (const [slug, project] of Object.entries(projects)) {
   }
 }
 
-const capabilitySlugs = new Set(videoCapabilities.map((item) => item.slug));
+const capabilitySlugs = new Set(Object.keys(videoCapabilities));
 const videoSlugs = new Set();
 
 for (const video of videoWork) {

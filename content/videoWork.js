@@ -1,5 +1,5 @@
-export const videoCapabilities = [
-  {
+export const videoCapabilities = {
+  "production": {
     slug: "production",
     label: "Production",
     description:
@@ -7,7 +7,7 @@ export const videoCapabilities = [
     image:
       "<svg viewBox='0 0 96 96' xmlns='http://www.w3.org/2000/svg'><rect x='3' y='3' width='90' height='90' rx='20' fill='#111827'/><rect x='19' y='31' width='43' height='34' rx='8' fill='none' stroke='#fff' stroke-width='5'/><path d='m62 40 15-8v32l-15-8V40Z' fill='#76d7ff'/><circle cx='40.5' cy='48' r='8' fill='none' stroke='#fff' stroke-width='4'/></svg>",
   },
-  {
+  "editing": {
     slug: "editing",
     label: "Editing",
     description:
@@ -15,7 +15,7 @@ export const videoCapabilities = [
     image:
       "<svg viewBox='0 0 96 96' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='editG' x1='12' y1='84' x2='84' y2='12'><stop stop-color='#4d27a8'/><stop offset='1' stop-color='#76d7ff'/></linearGradient></defs><rect x='3' y='3' width='90' height='90' rx='20' fill='url(#editG)'/><path d='M22 29h52M22 48h52M22 67h52' stroke='#fff' stroke-width='5' stroke-linecap='round'/><path d='M37 23v12M58 42v12M45 61v12' stroke='#fff' stroke-width='7' stroke-linecap='round'/></svg>",
   },
-  {
+  "motion": {
     slug: "motion",
     label: "Motion",
     description:
@@ -23,7 +23,7 @@ export const videoCapabilities = [
     image:
       "<svg viewBox='0 0 96 96' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='motionG' x1='10' y1='86' x2='86' y2='10'><stop stop-color='#211a73'/><stop offset='1' stop-color='#bbaaff'/></linearGradient></defs><rect x='3' y='3' width='90' height='90' rx='20' fill='url(#motionG)'/><path d='M18 55c11 0 11-20 22-20s11 26 22 26 11-20 16-20' fill='none' stroke='#fff' stroke-width='6' stroke-linecap='round'/><circle cx='18' cy='55' r='4' fill='#76d7ff'/><circle cx='78' cy='41' r='4' fill='#76d7ff'/></svg>",
   },
-  {
+  "video-seo": {
     slug: "video-seo",
     label: "Video SEO",
     description:
@@ -31,7 +31,7 @@ export const videoCapabilities = [
     image:
       "<svg viewBox='0 0 96 96' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='vseoG' x1='10' y1='86' x2='86' y2='10'><stop stop-color='#126b54'/><stop offset='1' stop-color='#76d7ff'/></linearGradient></defs><rect x='3' y='3' width='90' height='90' rx='20' fill='url(#vseoG)'/><circle cx='39' cy='41' r='19' fill='none' stroke='#fff' stroke-width='5'/><path d='m53 55 19 19' stroke='#fff' stroke-width='6' stroke-linecap='round'/><path d='m34 31 14 10-14 10V31Z' fill='#fff'/></svg>",
   },
-  {
+  "interactive": {
     slug: "interactive",
     label: "Interactive Experiences",
     description:
@@ -39,7 +39,7 @@ export const videoCapabilities = [
     image:
       "<svg viewBox='0 0 96 96' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='interactiveG' x1='12' y1='84' x2='84' y2='12'><stop stop-color='#2a45f9'/><stop offset='1' stop-color='#bbaaff'/></linearGradient></defs><rect x='3' y='3' width='90' height='90' rx='20' fill='url(#interactiveG)'/><rect x='18' y='20' width='60' height='46' rx='7' fill='none' stroke='#fff' stroke-width='5'/><path d='m42 32 18 11-18 11V32Z' fill='#fff'/><path d='m52 55 10 22 5-9 10-5-25-8Z' fill='#76d7ff' stroke='#fff' stroke-width='2' stroke-linejoin='round'/></svg>",
   },
-];
+};
 
 export const videoWork = [
   {

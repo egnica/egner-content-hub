@@ -57,6 +57,8 @@ test("video route preserves all ordered video and webpage entries", async () => 
   const data = await response.json();
 
   assert.equal(response.status, 200);
+  assert.equal(data.capabilities.production.slug, "production");
+  assert.equal(data.capabilities["video-seo"].label, "Video SEO");
   assert.equal(data.items.length, 12);
   assert.equal(data.items.filter((item) => item.type === "webpage").length, 5);
 });
