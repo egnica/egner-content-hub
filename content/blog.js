@@ -2028,14 +2028,15 @@ If you’re thinking about improving how your business shows up online, this is 
     slug: "voice-to-markdown-workflow",
     showOnGignovate: false,
     canonicalSite: "nicholasegner",
-    title: "I Built a Voice-to-Markdown Workflow with ChatGPT, GitHub, and Next.js",
+    title:
+      "I Built a Voice-to-Markdown Workflow with ChatGPT, GitHub, and Next.js",
     description:
       "A lightweight workflow using ChatGPT voice conversations, GitHub markdown files, Next.js, and AWS Amplify to turn spoken ideas into organized, editable notes.",
     date: "2026-09-21",
-    published_time: null,
+    published_time: "2026-09-21T19:40:41Z",
     modified_time: null,
-    published: false,
-    featured: false,
+    published: true,
+    featured: true,
     keywords: [
       "ChatGPT voice workflow",
       "voice to markdown",
@@ -2046,9 +2047,9 @@ If you’re thinking about improving how your business shows up online, this is 
       "custom productivity tools",
     ],
     hero_image:
-      "https://latestartbucket.s3.us-east-2.amazonaws.com/mobile-phone/ChatGPT-phone-1789927741074-b64ff7d1.webp",
+      "https://nciholasegner.s3.us-east-2.amazonaws.com/blog/voice-to-md.webp",
     meta_image:
-      "https://latestartbucket.s3.us-east-2.amazonaws.com/mobile-phone/ChatGPT-phone-1789927741074-b64ff7d1.webp",
+      "https://nciholasegner.s3.us-east-2.amazonaws.com/blog/voice-to-md.webp",
     contentBlocks: [
       {
         type: "paragraph",
@@ -2095,7 +2096,7 @@ If you’re thinking about improving how your business shows up online, this is 
       },
       {
         type: "paragraph",
-        text: `It's the same kind of practical, lightweight tooling I build for clients. If you're curious about simple automations or custom workflows, feel free to reach out.`,
+        text: `It's the same kind of practical, lightweight tooling I build for clients. If you're curious about simple automations or custom workflows, feel free to reach out. [Click Here](https://nicholasegner.com/contact) `,
       },
     ],
   },
