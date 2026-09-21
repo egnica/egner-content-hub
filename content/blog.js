@@ -2036,7 +2036,7 @@ If you’re thinking about improving how your business shows up online, this is 
     published_time: "2026-09-21T19:40:41Z",
     modified_time: null,
     published: true,
-    featured: true,
+    featured: false,
     keywords: [
       "ChatGPT voice workflow",
       "voice to markdown",
