@@ -2083,7 +2083,15 @@ If you’re thinking about improving how your business shows up online, this is 
       },
       {
         type: "paragraph",
-        text: `There are two connections in play. The dashboard uses GitHub to read and manage the markdown files. I created a repository to hold the markdown files and connected it with read/write abilities thought the Github Contents API. Then I added a button that links straight to the Chat Notes project in ChatGPT. No custom API work there, just a direct project link.`,
+        text: `There are two connections in play. First, I created a GitHub repository to hold the Markdown files and connected the dashboard to it through the GitHub Contents API with read and write access. Second, I added a button that links straight to the Chat Notes project in ChatGPT. There’s no custom ChatGPT API involved there, it’s just a direct project link.`,
+      },
+      {
+        type: "paragraph",
+        text: `The part I had to figure out was how to make a normal Next.js app treat a GitHub repository almost like a tiny content management system. The app uses GitHub’s Contents API to request the files inside my chat-readme-hub repository, filters that response down to .md files, and turns them into the list of notes I see in the dashboard. When I open one, Next.js makes another request for that specific file, decodes the Markdown GitHub returns, and renders it as a normal web page.`,
+      },
+      {
+        type: "paragraph",
+        text: `Once I added editing, the connection started working in both directions. I stored a GitHub access token securely in AWS Amplify, so when I hit Save, the Next.js server sends the updated Markdown back through the GitHub API and commits the change to the repository. GitHub is essentially acting as the database for the whole thing.`,
       },
       {
         type: "image",
@@ -2092,7 +2100,7 @@ If you’re thinking about improving how your business shows up online, this is 
       },
       {
         type: "paragraph",
-        text: `And that's how this post got written. I talked it through, saved the useful parts, and cleaned it up inside that same workflow. I even created a copy function to export the file. This is very useful then combining ideas or projects after the upload`,
+        text: `And that's how this post got written. I talked it through, saved the useful parts, and cleaned it up inside that same workflow. I also added a copy function so I can quickly export the contents of any note. That becomes especially useful later when I want to combine ideas, pull pieces from different notes into a larger project, or move the content into another workflow without opening GitHub and copying the raw Markdown manually.`,
       },
       {
         type: "paragraph",
