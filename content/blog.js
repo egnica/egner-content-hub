@@ -38,16 +38,20 @@ export const posts = {
     showOnGignovate: false,
     canonicalSite: "nicholasegner",
     title: "Hello World: Starting a Blog, Next.JS, and AWS Amplify",
-    description: "Welcome to my blog! In this first post, I share my journey of starting a blog using Next.js and AWS Amplify. I discuss the robust features of Next.js, the ease of hosting with AWS Amplify, and my plans for future enhancements like adding a database. Join me as I dive deep into these technologies and share my learnings as a developer.",
+    description:
+      "Welcome to my blog! In this first post, I share my journey of starting a blog using Next.js and AWS Amplify. I discuss the robust features of Next.js, the ease of hosting with AWS Amplify, and my plans for future enhancements like adding a database. Join me as I dive deep into these technologies and share my learnings as a developer.",
     date: "27 Jun 2024",
     published_time: "2024-06-27T16:24:36Z",
     modified_time: "2024-06-27T16:24:36Z",
     featured: false,
     live: true,
-    keywords: ["Dev","Next.js","AWS Amplify","Dynamic Routing"],
-    hero_image: "https://latestartbucket.s3.us-east-2.amazonaws.com/image/wiz-oz.png",
-    meta_image: "https://latestartbucket.s3.us-east-2.amazonaws.com/image/wiz-oz.png",
-    vibe_audio: "https://latestartbucket.s3.us-east-2.amazonaws.com/audio/hello.mp3",
+    keywords: ["Dev", "Next.js", "AWS Amplify", "Dynamic Routing"],
+    hero_image:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/image/wiz-oz.png",
+    meta_image:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/image/wiz-oz.png",
+    vibe_audio:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/audio/hello.mp3",
     contentBlocks: [
       {
         type: "paragraph",
@@ -107,7 +111,7 @@ export const posts = {
       },
       {
         type: "paragraph",
-        text: "I also found the Next.js Image tag to be a bit confusing... even still. It's a powerful tool for optimizing images, but getting the configuration right took some time and experimentation. I am using an out-of-date method called `layout`. When I use `layout=\"responsive\"`, the image just works. Out of frustration, I have decided to just use this method. Why Next.js?? Why are you taking away this great feature!",
+        text: 'I also found the Next.js Image tag to be a bit confusing... even still. It\'s a powerful tool for optimizing images, but getting the configuration right took some time and experimentation. I am using an out-of-date method called `layout`. When I use `layout="responsive"`, the image just works. Out of frustration, I have decided to just use this method. Why Next.js?? Why are you taking away this great feature!',
       },
       {
         type: "image",
@@ -145,7 +149,8 @@ export const posts = {
     live: true,
     featured: true,
     title: "Is That a Hive Mind, or are You Just Happy to See Me...",
-    description: "Hive mentality, also known as groupthink, is a phenomenon where individuals follow group decision-making, often losing personal autonomy. This concept is famously explored in the classic sci-fi film The Invasion of the Body Snatchers. Explore how hive mentality affects our daily lives and whether it can lead to positive collective changes, such as the growing trend of non-alcoholic options in the restaurant industry. Dive into the balance between individual choice and group influence, and reflect on whether we are all part of a hive mind.",
+    description:
+      "Hive mentality, also known as groupthink, is a phenomenon where individuals follow group decision-making, often losing personal autonomy. This concept is famously explored in the classic sci-fi film The Invasion of the Body Snatchers. Explore how hive mentality affects our daily lives and whether it can lead to positive collective changes, such as the growing trend of non-alcoholic options in the restaurant industry. Dive into the balance between individual choice and group influence, and reflect on whether we are all part of a hive mind.",
     date: "1 Jul 2024",
     published_time: "2024-07-01T13:28:51Z",
     modified_time: "2024-07-01T13:28:51Z",
@@ -157,9 +162,12 @@ export const posts = {
       "Health consciousness",
       "Social influence",
     ],
-    hero_image: "https://latestartbucket.s3.us-east-2.amazonaws.com/image/Hive-mind-main.png",
-    meta_image: "https://latestartbucket.s3.us-east-2.amazonaws.com/image/Hive-mind-main.png",
-    vibe_audio: "https://latestartbucket.s3.us-east-2.amazonaws.com/audio/hive-mind.mp3",
+    hero_image:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/image/Hive-mind-main.png",
+    meta_image:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/image/Hive-mind-main.png",
+    vibe_audio:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/audio/hive-mind.mp3",
     contentBlocks: [
       {
         type: "quote",
@@ -208,14 +216,24 @@ export const posts = {
     live: true,
     featured: false,
     title: "Do You Even Dynamic Link Bro?",
-    description: "Explore the differences between query stringing and dynamic linking in Next.js. Learn about the challenges with query stringing in React and Apache servers, and discover the benefits of dynamic linking for cleaner, SEO-friendly URLs and simplified navigation",
+    description:
+      "Explore the differences between query stringing and dynamic linking in Next.js. Learn about the challenges with query stringing in React and Apache servers, and discover the benefits of dynamic linking for cleaner, SEO-friendly URLs and simplified navigation",
     date: "14 Jul 2024",
     published_time: "2024-07-14T19:08:26Z",
     modified_time: "2024-07-14T19:08:26Z",
-    keywords: ["Dev","Next.js","Dynamic Linking","Query Stringing","Vercel"],
-    hero_image: "https://latestartbucket.s3.us-east-2.amazonaws.com/image/render.png",
-    meta_image: "https://latestartbucket.s3.us-east-2.amazonaws.com/image/render.png",
-    vibe_audio: "https://latestartbucket.s3.us-east-2.amazonaws.com/audio/workitout.mp3",
+    keywords: [
+      "Dev",
+      "Next.js",
+      "Dynamic Linking",
+      "Query Stringing",
+      "Vercel",
+    ],
+    hero_image:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/image/render.png",
+    meta_image:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/image/render.png",
+    vibe_audio:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/audio/workitout.mp3",
     contentBlocks: [
       {
         type: "paragraph",
@@ -381,7 +399,8 @@ export default function Page({ params }) {
     live: true,
     featured: true,
     title: "Shelley, Darling, Light of my Life...",
-    description: "Reflecting on Shelley Duvall’s legacy, let's explore her complex performance in ’The Shining,’ her experience on set with Stanley Kubrick, and acknowledging the depth and dedication behind her performances... or not?",
+    description:
+      "Reflecting on Shelley Duvall’s legacy, let's explore her complex performance in ’The Shining,’ her experience on set with Stanley Kubrick, and acknowledging the depth and dedication behind her performances... or not?",
     date: "16 Jul 2024",
     published_time: "2024-07-16T13:52:16Z",
     modified_time: "2024-07-16T13:52:16Z",
@@ -393,9 +412,12 @@ export default function Page({ params }) {
       "film performance analysis",
       "Olive Oyl",
     ],
-    hero_image: "https://latestartbucket.s3.us-east-2.amazonaws.com/image/Duvall-cover.png",
-    meta_image: "https://latestartbucket.s3.us-east-2.amazonaws.com/image/Duvall-cover.png",
-    vibe_audio: "https://latestartbucket.s3.us-east-2.amazonaws.com/audio/shinning-intro.mp3",
+    hero_image:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/image/Duvall-cover.png",
+    meta_image:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/image/Duvall-cover.png",
+    vibe_audio:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/audio/shinning-intro.mp3",
     contentBlocks: [
       {
         type: "heading",
@@ -484,14 +506,18 @@ export default function Page({ params }) {
     live: true,
     featured: false,
     title: "Build a Continent/Country Selector with GraphQL and React",
-    description: "In this tutorial, we'll walk through the process of building a simple React app that allows users to select a continent from a dropdown menu and display the corresponding countries in that continent. We will use Vite, a fast frontend build tool, to set up our React project. Additionally, we'll leverage GraphQL to fetch the data dynamically, making our app flexible and efficient.",
+    description:
+      "In this tutorial, we'll walk through the process of building a simple React app that allows users to select a continent from a dropdown menu and display the corresponding countries in that continent. We will use Vite, a fast frontend build tool, to set up our React project. Additionally, we'll leverage GraphQL to fetch the data dynamically, making our app flexible and efficient.",
     date: "23 Aug 2024",
     published_time: "2024-08-23T21:03:08Z",
     modified_time: "2024-08-23T21:03:08Z",
-    keywords: ["Dev","GraphQL","Vite"],
-    hero_image: "https://latestartbucket.s3.us-east-2.amazonaws.com/image/graphql-cover.png",
-    meta_image: "https://latestartbucket.s3.us-east-2.amazonaws.com/image/graphql-cover.png",
-    vibe_audio: "https://latestartbucket.s3.us-east-2.amazonaws.com/audio/ping-Island.mp3",
+    keywords: ["Dev", "GraphQL", "Vite"],
+    hero_image:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/image/graphql-cover.png",
+    meta_image:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/image/graphql-cover.png",
+    vibe_audio:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/audio/ping-Island.mp3",
     contentBlocks: [
       {
         type: "paragraph",
@@ -619,7 +645,8 @@ npm run dev`,
     live: true,
     featured: false,
     title: "Who's Serving Who? The Code vs. The Machine",
-    description: "Unravel the confusion around servers in web development. Discover the difference between physical and software servers, with humorous analogies and practical insights. Perfect for developers curious about how servers truly work.",
+    description:
+      "Unravel the confusion around servers in web development. Discover the difference between physical and software servers, with humorous analogies and practical insights. Perfect for developers curious about how servers truly work.",
     date: "06 Sep 2024",
     published_time: "2024-09-06T14:03:31Z",
     modified_time: "2024-09-06T14:03:31Z",
@@ -630,9 +657,12 @@ npm run dev`,
       "Server types in web development",
       "Server confusion in web development",
     ],
-    hero_image: "https://latestartbucket.s3.us-east-2.amazonaws.com/image/aretha.png",
-    meta_image: "https://latestartbucket.s3.us-east-2.amazonaws.com/image/aretha.png",
-    vibe_audio: "https://latestartbucket.s3.us-east-2.amazonaws.com/audio/Zoomin-Who.m4a",
+    hero_image:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/image/aretha.png",
+    meta_image:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/image/aretha.png",
+    vibe_audio:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/audio/Zoomin-Who.m4a",
     contentBlocks: [
       {
         type: "paragraph",
@@ -747,7 +777,8 @@ npm run dev`,
     live: true,
     featured: true,
     title: "Reflections on Being American: November 6, 2024",
-    description: "Reflecting on American identity and values in 2024, this personal post explores the complexity of feeling disconnected in a divided nation after the recent election. A candid look at what it means to belong, hope, and navigate a sense of home amid political and cultural shifts.",
+    description:
+      "Reflecting on American identity and values in 2024, this personal post explores the complexity of feeling disconnected in a divided nation after the recent election. A candid look at what it means to belong, hope, and navigate a sense of home amid political and cultural shifts.",
     date: "06 Nov 2024",
     published_time: "2024-11-06T19:02:51Z",
     modified_time: "2024-11-06T19:02:51Z",
@@ -759,9 +790,12 @@ npm run dev`,
       "what does it mean to be American 2024",
       "American values and identity post-election",
     ],
-    hero_image: "https://latestartbucket.s3.us-east-2.amazonaws.com/image/this-is-america.png",
-    meta_image: "https://latestartbucket.s3.us-east-2.amazonaws.com/image/this-is-america.png",
-    vibe_audio: "https://latestartbucket.s3.us-east-2.amazonaws.com/audio/This-Is-America.m4a",
+    hero_image:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/image/this-is-america.png",
+    meta_image:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/image/this-is-america.png",
+    vibe_audio:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/audio/This-Is-America.m4a",
     contentBlocks: [
       {
         type: "paragraph",
@@ -823,14 +857,18 @@ npm run dev`,
     live: true,
     featured: false,
     title: "Closure on the Concept of JavaScript Closures",
-    description: "Learn about JavaScript closures. This post covers what closures are, provides clear examples, breaks down complex concepts, and explains why closures are an essential part of any JavaScript developer's toolkit.",
+    description:
+      "Learn about JavaScript closures. This post covers what closures are, provides clear examples, breaks down complex concepts, and explains why closures are an essential part of any JavaScript developer's toolkit.",
     date: "07 Jan 2025",
     published_time: "2025-01-07T15:32:05Z",
     modified_time: "2025-01-07T15:32:05Z",
-    keywords: ["closures","javascript","scope"],
-    hero_image: "https://latestartbucket.s3.us-east-2.amazonaws.com/image/closers-cover.png",
-    meta_image: "https://latestartbucket.s3.us-east-2.amazonaws.com/image/closers-cover.png",
-    vibe_audio: "https://latestartbucket.s3.us-east-2.amazonaws.com/audio/closure-song.mp3",
+    keywords: ["closures", "javascript", "scope"],
+    hero_image:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/image/closers-cover.png",
+    meta_image:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/image/closers-cover.png",
+    vibe_audio:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/audio/closure-song.mp3",
     contentBlocks: [
       {
         type: "paragraph",
@@ -1044,14 +1082,18 @@ closureFunc('inside');`,
     live: true,
     featured: false,
     title: "A CallBack, Modulo, and setInterval Walk into a Bar...",
-    description: "How I learned to cycle words in React without using a loop. Learn how to cycle through an array in React using setInterval, a state callback, and the modulo (%) operator. A practical walkthrough for handling timed updates without using traditional loops.",
+    description:
+      "How I learned to cycle words in React without using a loop. Learn how to cycle through an array in React using setInterval, a state callback, and the modulo (%) operator. A practical walkthrough for handling timed updates without using traditional loops.",
     date: "30 Mar 2025",
     published_time: "2025-03-30T15:38:13Z",
     modified_time: "2025-03-30T15:38:13Z",
-    keywords: ["React","modulo operator","setInterval"],
-    hero_image: "https://latestartbucket.s3.us-east-2.amazonaws.com/image/modulo-with-you.png",
-    meta_image: "https://latestartbucket.s3.us-east-2.amazonaws.com/image/modulo-with-you.png",
-    vibe_audio: "https://latestartbucket.s3.us-east-2.amazonaws.com/audio/fistfull.mp3",
+    keywords: ["React", "modulo operator", "setInterval"],
+    hero_image:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/image/modulo-with-you.png",
+    meta_image:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/image/modulo-with-you.png",
+    vibe_audio:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/audio/fistfull.mp3",
     contentBlocks: [
       {
         type: "paragraph",
@@ -1222,7 +1264,8 @@ useEffect(() => {
     live: true,
     featured: true,
     title: "Sometimes I Doubt Your Commitment to Framer Motion",
-    description: "A developer’s deep dive into Framer Motion, layout animations, and why trusting height: 'auto' might just change the way you build UI forever. Inspired by Donnie Darko, frustration, and the thrill of things that just work.",
+    description:
+      "A developer’s deep dive into Framer Motion, layout animations, and why trusting height: 'auto' might just change the way you build UI forever. Inspired by Donnie Darko, frustration, and the thrill of things that just work.",
     date: "23 Apr 2025",
     published_time: "2025-04-24T00:58:25Z",
     modified_time: "2025-04-24T00:58:25Z",
@@ -1236,9 +1279,12 @@ useEffect(() => {
       "scrollHeight",
       "developer blog",
     ],
-    hero_image: "https://latestartbucket.s3.us-east-2.amazonaws.com/image/framerMotionCover.png",
-    meta_image: "https://latestartbucket.s3.us-east-2.amazonaws.com/image/framerMotionCover.png",
-    vibe_audio: "https://latestartbucket.s3.us-east-2.amazonaws.com/audio/HeadOverHeels.m4a",
+    hero_image:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/image/framerMotionCover.png",
+    meta_image:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/image/framerMotionCover.png",
+    vibe_audio:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/audio/HeadOverHeels.m4a",
     contentBlocks: [
       {
         type: "paragraph",
@@ -1437,7 +1483,8 @@ Honestly, does it get much better than this scene? If you’ve never seen *Donni
     live: true,
     featured: true,
     title: "Showing Up for the Process",
-    description: "I used to think ideas were enough. Turns out, it takes a weekly system, quiet structure, and a few hard shifts to actually get things done.",
+    description:
+      "I used to think ideas were enough. Turns out, it takes a weekly system, quiet structure, and a few hard shifts to actually get things done.",
     date: "03 May 2025",
     published_time: "2025-05-03T20:08:15Z",
     modified_time: "2025-05-03T20:08:15Z",
@@ -1460,9 +1507,12 @@ Honestly, does it get much better than this scene? If you’ve never seen *Donni
       "momentum",
       "habits",
     ],
-    hero_image: "https://latestartbucket.s3.us-east-2.amazonaws.com/image/practice.webp",
-    meta_image: "https://latestartbucket.s3.us-east-2.amazonaws.com/image/practice.webp",
-    vibe_audio: "https://latestartbucket.s3.us-east-2.amazonaws.com/audio/Process.m4a",
+    hero_image:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/image/practice.webp",
+    meta_image:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/image/practice.webp",
+    vibe_audio:
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/audio/Process.m4a",
     contentBlocks: [
       {
         type: "paragraph",
@@ -1625,7 +1675,8 @@ And for now, that feels like enough.`,
     showOnGignovate: false,
     canonicalSite: "nicholasegner",
     title: "The Video SEO Trifecta: How to Use YouTube for Business SEO",
-    description: "A simple system that connects video, blog content, and structured data to strengthen your digital presence and build long-term authority.",
+    description:
+      "A simple system that connects video, blog content, and structured data to strengthen your digital presence and build long-term authority.",
     date: "2026-02-16",
     published_time: "2026-02-16T00:00:00-06:00",
     modified_time: null,
@@ -1639,12 +1690,16 @@ And for now, that feels like enough.`,
       "JSON-LD sameAs",
       "Cross-linking SEO",
     ],
-    hero_image: "https://nciholasegner.s3.us-east-2.amazonaws.com/images/video_seo_thumbnail.png",
-    meta_image: "https://nciholasegner.s3.us-east-2.amazonaws.com/images/video_seo_thumbnail.png",
+    hero_image:
+      "https://nciholasegner.s3.us-east-2.amazonaws.com/images/video_seo_thumbnail.png",
+    meta_image:
+      "https://nciholasegner.s3.us-east-2.amazonaws.com/images/video_seo_thumbnail.png",
     primaryVideo: {
       title: "The Video SEO Trifecta",
-      thumbnail: "https://nciholasegner.s3.us-east-2.amazonaws.com/images/video_seo_thumbnail.png",
-      videoDescription: "Nicholas Egner breaks down the three-step 'Trifecta' system: combining YouTube authority, blog content, and structured data for maximum search visibility.",
+      thumbnail:
+        "https://nciholasegner.s3.us-east-2.amazonaws.com/images/video_seo_thumbnail.png",
+      videoDescription:
+        "Nicholas Egner breaks down the three-step 'Trifecta' system: combining YouTube authority, blog content, and structured data for maximum search visibility.",
       duration: "PT3M28S",
       src: {
         mp4: "https://nciholasegner.s3.us-east-2.amazonaws.com/video/Video-Trifecta.mp4",
@@ -1833,7 +1888,8 @@ Let’s make sure your digital presence is working as hard as you are.`,
     showOnGignovate: false,
     canonicalSite: "nicholasegner",
     title: "How a Video Can Transform a Business’s Online Presence",
-    description: "A real example of how video can elevate a small business, build trust, and create a stronger digital presence without overcomplicating the process.",
+    description:
+      "A real example of how video can elevate a small business, build trust, and create a stronger digital presence without overcomplicating the process.",
     date: "2026-05-04",
     published_time: "2026-05-04T00:00:00-05:00",
     modified_time: null,
@@ -1846,12 +1902,16 @@ Let’s make sure your digital presence is working as hard as you are.`,
       "website showcase video",
       "digital presence strategy",
     ],
-    hero_image: "https://nciholasegner.s3.us-east-2.amazonaws.com/images/yourGardens-Thumb.webp",
-    meta_image: "https://nciholasegner.s3.us-east-2.amazonaws.com/images/yourGardens-Thumb.webp",
+    hero_image:
+      "https://nciholasegner.s3.us-east-2.amazonaws.com/images/yourGardens-Thumb.webp",
+    meta_image:
+      "https://nciholasegner.s3.us-east-2.amazonaws.com/images/yourGardens-Thumb.webp",
     primaryVideo: {
       title: "Your Gardens By Design - Brand Video",
-      thumbnail: "https://nciholasegner.s3.us-east-2.amazonaws.com/video/thumbnails/yourGardens-Thumb.png",
-      videoDescription: "A brand video created to showcase the personality, environment, and real experience behind a local business, helping strengthen their digital presence and build trust with potential clients.",
+      thumbnail:
+        "https://nciholasegner.s3.us-east-2.amazonaws.com/video/thumbnails/yourGardens-Thumb.png",
+      videoDescription:
+        "A brand video created to showcase the personality, environment, and real experience behind a local business, helping strengthen their digital presence and build trust with potential clients.",
       duration: "PT2M23S",
       src: {
         mp4: "https://nciholasegner.s3.us-east-2.amazonaws.com/video/your-gardens.mp4",
@@ -1963,6 +2023,7 @@ If you’re thinking about improving how your business shows up online, this is 
       },
     ],
   },
+
 };
 
 export default posts;
