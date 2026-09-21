@@ -2053,7 +2053,7 @@ If you’re thinking about improving how your business shows up online, this is 
     contentBlocks: [
       {
         type: "paragraph",
-        text: `A few days ago, I was driving and had a couple ideas pop into my head that I really wanted to remember. I've been working with [Davis Defense (Click here to see the video)](https://www.davisdefenselawyers.com/video/traffic-violations-minnesota) on content about Minnesota's hands-free driving law, so I've gotten careful about not picking up my phone. But I also knew there was a good chance those ideas would be gone by the time I got where I was going. So, I started talking.`,
+        text: `A few days ago, I was driving and had a couple ideas pop into my head that I really wanted to remember. I've been working with [**Davis Defense** (Click here to see the video)](https://www.davisdefenselawyers.com/video/traffic-violations-minnesota) on content about Minnesota's hands-free driving law, so I've gotten careful about not picking up my phone. But I also knew there was a good chance those ideas would be gone by the time I got where I was going. So, I started talking.`,
       },
       {
         type: "image",
