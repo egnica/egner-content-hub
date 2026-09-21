@@ -2083,7 +2083,7 @@ If you’re thinking about improving how your business shows up online, this is 
       },
       {
         type: "paragraph",
-        text: `There are two connections in play. The dashboard uses GitHub to read and manage the markdown files, and there's a button that links straight to the Chat Notes project in ChatGPT. No custom API work there, just a direct project link.`,
+        text: `There are two connections in play. The dashboard uses GitHub to read and manage the markdown files. I created a repository to hold the markdown files and connected it with read/write abilities thought the Github Contents API. Then I added a button that links straight to the Chat Notes project in ChatGPT. No custom API work there, just a direct project link.`,
       },
       {
         type: "image",
@@ -2092,7 +2092,7 @@ If you’re thinking about improving how your business shows up online, this is 
       },
       {
         type: "paragraph",
-        text: `And that's how this post got written. I talked it through, saved the useful parts, and cleaned it up inside that same workflow.`,
+        text: `And that's how this post got written. I talked it through, saved the useful parts, and cleaned it up inside that same workflow. I even created a copy function to export the file. This is very useful then combining ideas or projects after the upload`,
       },
       {
         type: "paragraph",
