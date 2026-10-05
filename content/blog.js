@@ -2132,7 +2132,7 @@ If you’re thinking about improving how your business shows up online, this is 
       "content workflow",
     ],
     hero_image:
-      "https://latestartbucket.s3.us-east-2.amazonaws.com/mobile-phone/hub-hero-1791234815856-c645ebef.webp",
+      "https://latestartbucket.s3.us-east-2.amazonaws.com/mobile-phone/Untitled-October-05-2026-at-12.37-1791236736341-4b31a8f6.webp",
     meta_image:
       "https://latestartbucket.s3.us-east-2.amazonaws.com/mobile-phone/hub-hero-1791234815856-c645ebef.webp",
     contentBlocks: [
