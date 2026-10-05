@@ -147,7 +147,7 @@ export const posts = {
     showOnGignovate: false,
     canonicalSite: "nicholasegner",
     live: true,
-    featured: true,
+    featured: false,
     title: "Is That a Hive Mind, or are You Just Happy to See Me...",
     description:
       "Hive mentality, also known as groupthink, is a phenomenon where individuals follow group decision-making, often losing personal autonomy. This concept is famously explored in the classic sci-fi film The Invasion of the Body Snatchers. Explore how hive mentality affects our daily lives and whether it can lead to positive collective changes, such as the growing trend of non-alcoholic options in the restaurant industry. Dive into the balance between individual choice and group influence, and reflect on whether we are all part of a hive mind.",
@@ -2119,7 +2119,7 @@ If you’re thinking about improving how your business shows up online, this is 
     date: "2026-10-05",
     published_time: null,
     modified_time: null,
-    published: false,
+    published: true,
     featured: false,
     keywords: [
       "social media management",
