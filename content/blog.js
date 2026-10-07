@@ -2117,7 +2117,7 @@ If you’re thinking about improving how your business shows up online, this is 
     description:
       "Why I started building my own social media management hub, how Facebook and Instagram publishing work today, and how I’m using AWS to add reliable scheduling and automation.",
     date: "2026-10-05",
-    published_time: null,
+    published_time: "2026-10-05T21:04:58Z",
     modified_time: null,
     published: true,
     featured: false,
