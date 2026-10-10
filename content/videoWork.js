@@ -1,5 +1,5 @@
 export const videoCapabilities = {
-  "production": {
+  production: {
     slug: "production",
     label: "Production",
     description:
@@ -7,7 +7,7 @@ export const videoCapabilities = {
     image:
       "<svg viewBox='0 0 96 96' xmlns='http://www.w3.org/2000/svg'><rect x='3' y='3' width='90' height='90' rx='20' fill='#111827'/><rect x='19' y='31' width='43' height='34' rx='8' fill='none' stroke='#fff' stroke-width='5'/><path d='m62 40 15-8v32l-15-8V40Z' fill='#76d7ff'/><circle cx='40.5' cy='48' r='8' fill='none' stroke='#fff' stroke-width='4'/></svg>",
   },
-  "editing": {
+  editing: {
     slug: "editing",
     label: "Editing",
     description:
@@ -15,7 +15,7 @@ export const videoCapabilities = {
     image:
       "<svg viewBox='0 0 96 96' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='editG' x1='12' y1='84' x2='84' y2='12'><stop stop-color='#4d27a8'/><stop offset='1' stop-color='#76d7ff'/></linearGradient></defs><rect x='3' y='3' width='90' height='90' rx='20' fill='url(#editG)'/><path d='M22 29h52M22 48h52M22 67h52' stroke='#fff' stroke-width='5' stroke-linecap='round'/><path d='M37 23v12M58 42v12M45 61v12' stroke='#fff' stroke-width='7' stroke-linecap='round'/></svg>",
   },
-  "motion": {
+  motion: {
     slug: "motion",
     label: "Motion",
     description:
@@ -31,7 +31,7 @@ export const videoCapabilities = {
     image:
       "<svg viewBox='0 0 96 96' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='vseoG' x1='10' y1='86' x2='86' y2='10'><stop stop-color='#126b54'/><stop offset='1' stop-color='#76d7ff'/></linearGradient></defs><rect x='3' y='3' width='90' height='90' rx='20' fill='url(#vseoG)'/><circle cx='39' cy='41' r='19' fill='none' stroke='#fff' stroke-width='5'/><path d='m53 55 19 19' stroke='#fff' stroke-width='6' stroke-linecap='round'/><path d='m34 31 14 10-14 10V31Z' fill='#fff'/></svg>",
   },
-  "interactive": {
+  interactive: {
     slug: "interactive",
     label: "Interactive Experiences",
     description:
@@ -70,7 +70,7 @@ export const videoWork = [
   {
     title: "Whittier Neighborhood Documentary",
     type: "video",
-    url: "https://nciholasegner.s3.us-east-2.amazonaws.com/video/website-videos/whittier.mp4",
+    url: "https://nciholasegner.s3.us-east-2.amazonaws.com/images/whittier.webp",
     poster: null,
     slug: "whittier-neighborhood-documentary",
     category: "Documentary Storytelling",
