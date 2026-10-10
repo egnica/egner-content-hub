@@ -70,8 +70,9 @@ export const videoWork = [
   {
     title: "Whittier Neighborhood Documentary",
     type: "video",
-    url: "https://nciholasegner.s3.us-east-2.amazonaws.com/images/whittier.webp",
-    poster: null,
+    url: "https://nciholasegner.s3.us-east-2.amazonaws.com/video/website-videos/whittier.mp4",
+    poster:
+      "https://nciholasegner.s3.us-east-2.amazonaws.com/images/whittier.webp",
     slug: "whittier-neighborhood-documentary",
     category: "Documentary Storytelling",
     capabilities: ["production", "editing", "motion"],
