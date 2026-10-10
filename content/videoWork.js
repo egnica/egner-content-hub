@@ -47,7 +47,7 @@ export const videoWork = [
     type: "video",
     url: "https://nciholasegner.s3.us-east-2.amazonaws.com/video/your-gardens.mp4",
     poster:
-      "https://nciholasegner.s3.us-east-2.amazonaws.com/video/thumbnails/yourGardens-Thumb.png",
+      "https://nciholasegner.s3.us-east-2.amazonaws.com/images/yourGardens-Thumb.webp",
     slug: "your-gardens-by-design",
     category: "Brand Storytelling",
     capabilities: ["production", "editing"],
