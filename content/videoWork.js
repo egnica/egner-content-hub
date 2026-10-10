@@ -90,7 +90,7 @@ export const videoWork = [
     title: "YWCA Women's Triathlon",
     type: "video",
     url: "https://nciholasegner.s3.us-east-2.amazonaws.com/video/website-videos/YWCA-+Womans-Triathlon.mp4",
-    poster: null,
+    poster: "https://nciholasegner.s3.us-east-2.amazonaws.com/images/ywca.webp",
     slug: "ywca-womens-triathlon",
     category: "Event Video",
     capabilities: ["production", "editing"],
@@ -108,7 +108,8 @@ export const videoWork = [
     title: "Landscape Structures",
     type: "video",
     url: "https://nciholasegner.s3.us-east-2.amazonaws.com/video/website-videos/Landscape.mp4",
-    poster: null,
+    poster:
+      "https://nciholasegner.s3.us-east-2.amazonaws.com/images/landscape.webp",
     slug: "landscape-structures",
     category: "Branded Collaboration",
     capabilities: ["production", "editing"],
