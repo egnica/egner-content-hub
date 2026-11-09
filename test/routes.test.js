@@ -34,12 +34,12 @@ test("unknown sites receive a useful client error", async () => {
   assert.equal(data.error, "Unknown site: unknown");
 });
 
-test("projects route returns four keyed case studies", async () => {
+test("projects route returns five keyed case studies", async () => {
   const response = await getProjectsRoute(request("/api/projects"));
   const data = await response.json();
 
   assert.equal(response.status, 200);
-  assert.equal(Object.keys(data).length, 4);
+  assert.equal(Object.keys(data).length, 5);
   assert.equal(data["davis-defense"].slug, "davis-defense");
 });
 

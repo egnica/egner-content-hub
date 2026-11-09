@@ -95,6 +95,15 @@ export const posts = {
       {
         type: "heading",
         level: 2,
+        text: "10,000+ Views on YouTube",
+      },
+      {
+        type: "paragraph",
+        text: "As of November 9, 2026, this video has passed 10,000 views on YouTube. It is encouraging to see people finding something I enjoyed making, and it gives me more reason to keep going.",
+      },
+      {
+        type: "heading",
+        level: 2,
         text: "Making the Video",
       },
       {
@@ -107,7 +116,7 @@ export const posts = {
       },
       {
         type: "paragraph",
-        text: "You can find this piece alongside my other production and editing work in the [video portfolio](/video), or visit the [video detail page](/video/biff-had-kids-back-to-the-future) for a quick overview of the project.",
+        text: "You can read the [YouTube video production case study](/projects/youtube-video-production) for more about the work and the audience milestone, or find this piece alongside my other production and editing work in the [video portfolio](/video).",
       },
     ],
   },

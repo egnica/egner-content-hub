@@ -579,6 +579,105 @@ export const projects = [
         "A custom wedding website and guest RSVP platform featuring MongoDB household search, dynamic response forms, responsive photography, wedding party content, and personalized interactions.",
     },
   },
+  {
+    title: "YouTube Video Production",
+    slug: "youtube-video-production",
+    sites: ["nicholasegner"],
+    eyebrow: "Video Essays, Editing & Motion Graphics",
+    year: "2026",
+    summary:
+      "A personal video project taking a Back to the Future question from script to finished video. The Biff video reached 10,000+ YouTube views as of November 9, 2026.",
+    role: [
+      "Concept development and scripting",
+      "On-camera presentation and green screen recording",
+      "Video editing, compositing, and motion graphics",
+      "Thumbnail design and publishing",
+    ],
+    preview: {
+      problem:
+        "Turn a question about the missing generation between Biff and Griff Tannen into a video that gives viewers a reason to click and keeps the story moving.",
+      approach:
+        "I developed the script, recorded the talking head against a green screen, and combined commentary, film clips, motion graphics, and visual jokes. I also created the thumbnail and published the finished piece on YouTube and my website.",
+      result:
+        "10,000+ views on YouTube as of November 9, 2026. The finished 3:53 video is also a portfolio example of my scripting, presenting, editing, and compositing work.",
+    },
+    capabilities: [
+      {
+        title: "Concept & Script",
+        summary:
+          "Built a video essay around a specific movie question, organizing the commentary and supporting clips into a story with a clear hook.",
+      },
+      {
+        title: "On-Camera Production",
+        summary:
+          "Recorded the talking head against a green screen so the presentation could sit alongside film clips, graphics, and visual jokes.",
+      },
+      {
+        title: "Editing & Motion Graphics",
+        summary:
+          "Combined the presentation, film clips, compositing, and animated elements, with attention to pacing, timing, and how each visual supports the story.",
+      },
+      {
+        title: "Thumbnail & Publishing",
+        summary:
+          "Created the thumbnail, published the video on YouTube, and connected it to a website watch page, blog post, and video portfolio.",
+      },
+    ],
+    stack: ["premiere", "aftereffects", "photoshop", "youtube"],
+    image:
+      "https://nciholasegner.s3.us-east-2.amazonaws.com/blog/who_his_dad_thumb.webp",
+    heroMedia: {
+      type: "image",
+      src: "https://nciholasegner.s3.us-east-2.amazonaws.com/blog/who_his_dad_thumb.webp",
+      alt: "Biff and Griff Tannen thumbnail for the Back to the Future video essay",
+      caption: "Biff Had Kids? Who Is Griff's Dad? A Back to the Future video essay.",
+    },
+    links: [
+      {
+        label: "Watch on YouTube",
+        url: "https://youtu.be/5QFmio1vFOk",
+        type: "live",
+      },
+      {
+        label: "Read the Video Post",
+        url: "/blog/biff-had-kids-back-to-the-future",
+        type: "feature",
+      },
+      {
+        label: "View Video Portfolio",
+        url: "/video",
+        type: "feature",
+      },
+    ],
+    caseStudy: {
+      overviewTitle: "From a Movie Question to a Finished Video",
+      overview:
+        "This project brings together the creative and production work behind my YouTube videos. The featured piece explores the missing generation between Biff and Griff Tannen in Back to the Future. I handled the concept, script, on-camera presentation, edit, graphics, thumbnail, and publishing, giving me room to develop the story and experiment with the delivery.",
+      sections: [
+        {
+          eyebrow: "Audience Response",
+          title: "10,000+ YouTube Views",
+          body:
+            "The Biff video reached more than 10,000 views on YouTube as of November 9, 2026.",
+        },
+      ],
+    },
+    media: [
+      {
+        type: "video",
+        src: "https://nciholasegner.s3.us-east-2.amazonaws.com/blog/biff-had-kids-back-to-the-future-small.mp4",
+        poster:
+          "https://nciholasegner.s3.us-east-2.amazonaws.com/blog/who_his_dad_thumb.webp",
+        alt: "Watch Biff Had Kids? Who Is Griff's Dad? by Nicholas Egner",
+        caption: "Watch the complete 3:53 video: Biff Had Kids? Who Is Griff's Dad?",
+      },
+    ],
+    seo: {
+      title: "YouTube Video Production Case Study | Nicholas Egner",
+      description:
+        "A Back to the Future video essay with 10,000+ YouTube views as of November 9, 2026, featuring scripting, green screen presentation, editing, motion graphics, and thumbnail design.",
+    },
+  },
 ];
 
 export const projectsBySlug = Object.fromEntries(
