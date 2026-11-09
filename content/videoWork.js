@@ -65,7 +65,15 @@ export const videoWork = [
         label: "Read the video post",
         url: "/blog/biff-had-kids-back-to-the-future",
       },
+      {
+        label: "Watch on YouTube",
+        url: "https://youtu.be/5QFmio1vFOk",
+      },
     ],
+    youtube: {
+      url: "https://youtu.be/5QFmio1vFOk",
+    },
+    sameAs: ["https://youtu.be/5QFmio1vFOk"],
     duration: "PT3M53S",
     published_time: "2026-11-09T10:00:00-06:00",
     width: 1920,

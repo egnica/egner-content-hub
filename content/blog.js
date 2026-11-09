@@ -76,6 +76,11 @@ export const posts = {
       src: {
         mp4: "https://nciholasegner.s3.us-east-2.amazonaws.com/blog/biff-had-kids-back-to-the-future-small.mp4",
       },
+      youtube: {
+        url: "https://youtu.be/5QFmio1vFOk",
+        label: "Watch on YouTube",
+      },
+      sameAs: ["https://youtu.be/5QFmio1vFOk"],
       isAccessibleForFree: true,
     },
     contentBlocks: [
