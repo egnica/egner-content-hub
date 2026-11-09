@@ -43,6 +43,35 @@ export const videoCapabilities = {
 
 export const videoWork = [
   {
+    title: "Biff Had Kids? Who Is Griff's Dad?",
+    type: "video",
+    url: "https://nciholasegner.s3.us-east-2.amazonaws.com/blog/biff-had-kids-back-to-the-future-small.mp4",
+    poster:
+      "https://nciholasegner.s3.us-east-2.amazonaws.com/blog/who_his_dad_thumb.webp",
+    slug: "biff-had-kids-back-to-the-future",
+    sites: ["nicholasegner"],
+    category: "YouTube Video Essay",
+    capabilities: ["production", "editing", "motion"],
+    mainStage: true,
+    description:
+      "A Back to the Future video essay exploring the missing generation between Biff and Griff Tannen, combining scripted commentary, green screen presentation, film clips, and motion graphics.",
+    details: [
+      "This personal YouTube project starts with a question about Back to the Future: how do Biff and Griff connect, and who is Griff's dad?",
+      "I developed the script, recorded the on-camera presentation, and shaped the edit with film clips, compositing, and visual jokes. The piece brings together storytelling, performance, pacing, and motion graphics in one finished video.",
+    ],
+    skills: ["premiere", "aftereffects", "photoshop"],
+    relatedPages: [
+      {
+        label: "Read the video post",
+        url: "/blog/biff-had-kids-back-to-the-future",
+      },
+    ],
+    duration: "PT3M53S",
+    published_time: "2026-11-09T10:00:00-06:00",
+    width: 1920,
+    height: 1080,
+  },
+  {
     title: "Your Gardens By Design",
     type: "video",
     url: "https://nciholasegner.s3.us-east-2.amazonaws.com/video/your-gardens.mp4",

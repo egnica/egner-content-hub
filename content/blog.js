@@ -32,6 +32,80 @@
 */
 
 export const posts = {
+  "biff-had-kids-back-to-the-future": {
+    id: "016",
+    slug: "biff-had-kids-back-to-the-future",
+    sites: ["nicholasegner"],
+    showOnGignovate: false,
+    canonicalSite: "nicholasegner",
+    title: "Biff Had Kids? Who Is Griff's Dad in Back to the Future?",
+    description:
+      "Who connects Biff and Griff Tannen? My Back to the Future video explores the missing generation through movie clips, commentary, and a few visual jokes.",
+    date: "2026-11-09",
+    published_time: "2026-11-09T10:00:00-06:00",
+    modified_time: null,
+    live: true,
+    published: true,
+    featured: true,
+    keywords: [
+      "Back to the Future",
+      "Biff Tannen",
+      "Griff Tannen",
+      "who is Griff's dad",
+      "Tannen family",
+      "video essay",
+      "YouTube video production",
+    ],
+    hero_image:
+      "https://nciholasegner.s3.us-east-2.amazonaws.com/blog/who_his_dad_thumb.webp",
+    hero_image_alt:
+      "Biff and Griff Tannen thumbnail asking who connects the two generations",
+    meta_image:
+      "https://nciholasegner.s3.us-east-2.amazonaws.com/blog/who_his_dad_thumb.webp",
+    meta_image_alt:
+      "Biff and Griff Tannen thumbnail asking who connects the two generations",
+    primaryVideo: {
+      title: "Biff Had Kids? Who Is Griff's Dad?",
+      thumbnail:
+        "https://nciholasegner.s3.us-east-2.amazonaws.com/blog/who_his_dad_thumb.webp",
+      videoDescription:
+        "Nicholas Egner explores the missing generation between Biff and Griff Tannen in Back to the Future, with scripted commentary, film clips, green screen presentation, and motion graphics.",
+      duration: "PT3M53S",
+      width: 1920,
+      height: 1080,
+      src: {
+        mp4: "https://nciholasegner.s3.us-east-2.amazonaws.com/blog/biff-had-kids-back-to-the-future-small.mp4",
+      },
+      isAccessibleForFree: true,
+    },
+    contentBlocks: [
+      {
+        type: "paragraph",
+        text: "Biff. Griff. There is a whole generation between those two. So... who's his dad? That question became the starting point for my latest Back to the Future video.",
+      },
+      {
+        type: "paragraph",
+        text: "This is the kind of movie detail I can get stuck thinking about. I wanted to take that curiosity and turn it into something fun to watch. The video above follows the question with movie clips, commentary, and a few visual jokes along the way.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Making the Video",
+      },
+      {
+        type: "paragraph",
+        text: "I wrote the script, recorded the talking head against a green screen, and brought the piece together with editing, compositing, and motion graphics. A personal project like this gives me room to experiment with the delivery and the edit. How long should a joke sit? When does a clip help explain something? Where do I need to pick up the pace?",
+      },
+      {
+        type: "paragraph",
+        text: "It is also a chance to keep making things around subjects I enjoy. I want to keep publishing, learning from the response, and getting better with each video.",
+      },
+      {
+        type: "paragraph",
+        text: "You can find this piece alongside my other production and editing work in the [video portfolio](/video), or visit the [video detail page](/video/biff-had-kids-back-to-the-future) for a quick overview of the project.",
+      },
+    ],
+  },
   "hello-world": {
     id: "001",
     slug: "hello-world",
