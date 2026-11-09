@@ -185,7 +185,7 @@ export const videoWork = [
     relatedPages: [],
   },
   {
-    title: "Barlow Conference Edit",
+    title: "Barlow Research Conference 2024 2",
     type: "video",
     url: "https://nciholasegner.s3.us-east-2.amazonaws.com/video/website-videos/BBC_2024-2.mp4",
     poster:
@@ -193,7 +193,7 @@ export const videoWork = [
     slug: "barlow-conference-edit",
     category: "Corporate & Conference Video",
     capabilities: ["editing", "motion"],
-    mainStage: false,
+    mainStage: true,
     description:
       "A second conference edit showing how live-event footage can be shaped into concise branded communication for a professional audience.",
     details: [
