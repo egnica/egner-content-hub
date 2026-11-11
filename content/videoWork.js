@@ -54,11 +54,11 @@ export const videoWork = [
     capabilities: ["production", "editing", "motion"],
     mainStage: true,
     description:
-      "A Back to the Future video essay combining scripted commentary, green screen presentation, film clips, and motion graphics. 20,000+ YouTube views as of November 11, 2026.",
+      "A Back to the Future video essay combining scripted commentary, green screen presentation, film clips, and motion graphics. 25,000+ YouTube views and 51 subscribers gained as of November 11, 2026.",
     details: [
       "This personal YouTube project starts with a question about Back to the Future: how do Biff and Griff connect, and who is Griff's dad?",
       "I developed the script, recorded the on-camera presentation, and shaped the edit with film clips, compositing, and visual jokes. The piece brings together storytelling, performance, pacing, and motion graphics in one finished video.",
-      "The video passed 20,000 views on YouTube as of November 11, 2026.",
+      "The video passed 25,000 views on YouTube and brought in 51 subscribers as of November 11, 2026.",
     ],
     skills: ["premiere", "aftereffects", "photoshop"],
     relatedPages: [

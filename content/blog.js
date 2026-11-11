@@ -95,11 +95,11 @@ export const posts = {
       {
         type: "heading",
         level: 2,
-        text: "20,000+ Views on YouTube",
+        text: "25,000+ Views on YouTube",
       },
       {
         type: "paragraph",
-        text: "As of November 11, 2026, this video has passed 20,000 views on YouTube. It is encouraging to see people finding something I enjoyed making, and it gives me more reason to keep going.",
+        text: "As of November 11, 2026, this video has passed 25,000 views on YouTube and brought in 51 subscribers. It is encouraging to see people finding something I enjoyed making, and it gives me more reason to keep going.",
       },
       {
         type: "heading",
