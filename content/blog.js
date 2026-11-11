@@ -70,6 +70,7 @@ export const posts = {
         "https://nciholasegner.s3.us-east-2.amazonaws.com/blog/who_his_dad_thumb.webp",
       videoDescription:
         "Nicholas Egner explores the missing generation between Biff and Griff Tannen in Back to the Future, with scripted commentary, film clips, green screen presentation, and motion graphics.",
+      uploadDate: "2026-11-05",
       duration: "PT3M53S",
       width: 1920,
       height: 1080,
@@ -95,11 +96,15 @@ export const posts = {
       {
         type: "heading",
         level: 2,
-        text: "25,000+ Views on YouTube",
+        text: "One Video. No Established Audience. 25,000+ Views in Six Days.",
       },
       {
         type: "paragraph",
-        text: "As of November 11, 2026, this video has passed 25,000 views on YouTube and brought in 51 subscribers. It is encouraging to see people finding something I enjoyed making, and it gives me more reason to keep going.",
+        text: "I published this video on YouTube on November 5, 2026, with no established audience. By November 11, it had passed 25,000 views in six days. I had taken one idea through the script, recording, edit, graphics, thumbnail, and publishing, and people were finding it.",
+      },
+      {
+        type: "paragraph",
+        text: "It received five views in the first hour. In an analytics snapshot on November 11, the most recent hour had brought in 1,227 views. Seeing that momentum build around something I enjoyed making is encouraging, and it gives me more reason to keep going.",
       },
       {
         type: "heading",
