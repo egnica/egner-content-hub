@@ -586,7 +586,7 @@ export const projects = [
     eyebrow: "Video Essays, Editing & Motion Graphics",
     year: "2026",
     summary:
-      "A personal video project taking a Back to the Future question from script to finished video. The Biff video reached 10,000+ YouTube views as of November 9, 2026.",
+      "A personal video project taking a Back to the Future question from script to finished video. The Biff video reached 20,000+ YouTube views as of November 11, 2026.",
     role: [
       "Concept development and scripting",
       "On-camera presentation and green screen recording",
@@ -599,7 +599,7 @@ export const projects = [
       approach:
         "I developed the script, recorded the talking head against a green screen, and combined commentary, film clips, motion graphics, and visual jokes. I also created the thumbnail and published the finished piece on YouTube and my website.",
       result:
-        "10,000+ views on YouTube as of November 9, 2026. The finished 3:53 video is also a portfolio example of my scripting, presenting, editing, and compositing work.",
+        "20,000+ views on YouTube as of November 11, 2026. The finished 3:53 video is also a portfolio example of my scripting, presenting, editing, and compositing work.",
     },
     capabilities: [
       {
@@ -656,9 +656,9 @@ export const projects = [
       sections: [
         {
           eyebrow: "Audience Response",
-          title: "10,000+ YouTube Views",
+          title: "20,000+ YouTube Views",
           body:
-            "The Biff video reached more than 10,000 views on YouTube as of November 9, 2026.",
+            "The Biff video reached more than 20,000 views on YouTube as of November 11, 2026.",
         },
       ],
     },
@@ -675,7 +675,7 @@ export const projects = [
     seo: {
       title: "YouTube Video Production Case Study | Nicholas Egner",
       description:
-        "A Back to the Future video essay with 10,000+ YouTube views as of November 9, 2026, featuring scripting, green screen presentation, editing, motion graphics, and thumbnail design.",
+        "A Back to the Future video essay with 20,000+ YouTube views as of November 11, 2026, featuring scripting, green screen presentation, editing, motion graphics, and thumbnail design.",
     },
   },
 ];

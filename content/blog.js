@@ -43,7 +43,7 @@ export const posts = {
       "Who connects Biff and Griff Tannen? My Back to the Future video explores the missing generation through movie clips, commentary, and a few visual jokes.",
     date: "2026-11-09",
     published_time: "2026-11-09T10:00:00-06:00",
-    modified_time: null,
+    modified_time: "2026-11-11T00:00:00-06:00",
     live: true,
     published: true,
     featured: true,
@@ -95,11 +95,11 @@ export const posts = {
       {
         type: "heading",
         level: 2,
-        text: "10,000+ Views on YouTube",
+        text: "20,000+ Views on YouTube",
       },
       {
         type: "paragraph",
-        text: "As of November 9, 2026, this video has passed 10,000 views on YouTube. It is encouraging to see people finding something I enjoyed making, and it gives me more reason to keep going.",
+        text: "As of November 11, 2026, this video has passed 20,000 views on YouTube. It is encouraging to see people finding something I enjoyed making, and it gives me more reason to keep going.",
       },
       {
         type: "heading",
