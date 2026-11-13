@@ -43,7 +43,7 @@ export const posts = {
       "Who connects Biff and Griff Tannen? My Back to the Future video explores the missing generation through movie clips, commentary, and a few visual jokes.",
     date: "2026-11-09",
     published_time: "2026-11-09T10:00:00-06:00",
-    modified_time: "2026-11-11T00:00:00-06:00",
+    modified_time: "2026-11-13T00:00:00-06:00",
     live: true,
     published: true,
     featured: true,
@@ -96,15 +96,15 @@ export const posts = {
       {
         type: "heading",
         level: 2,
-        text: "One Video. No Established Audience. 25,000+ Views in Six Days.",
+        text: "One Video. No Established Audience. 40,000 Views in Its First Seven Days.",
       },
       {
         type: "paragraph",
-        text: "I published this video on YouTube on November 5, 2026, with no established audience. By November 11, it had passed 25,000 views in six days. I had taken one idea through the script, recording, edit, graphics, thumbnail, and publishing, and people were finding it.",
+        text: "I published this video on YouTube on November 5, 2026, with no established audience. It reached 40,000 views in its first seven days. I had taken one idea through the script, recording, edit, graphics, thumbnail, and publishing, and people were finding it.",
       },
       {
         type: "paragraph",
-        text: "It received five views in the first hour. In an analytics snapshot on November 11, the most recent hour had brought in 1,227 views. Seeing that momentum build around something I enjoyed making is encouraging, and it gives me more reason to keep going.",
+        text: "It received five views in the first hour. In an analytics snapshot on November 11, the most recent hour had brought in 1,227 views. As of November 13, 2026, views were still growing beyond the first-week milestone. Seeing that momentum build around something I enjoyed making is encouraging, and it gives me more reason to keep going.",
       },
       {
         type: "heading",

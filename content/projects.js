@@ -586,7 +586,7 @@ export const projects = [
     eyebrow: "Video Essays, Editing & Motion Graphics",
     year: "2026",
     summary:
-      "One video. No established audience. 25,000+ views in six days. A Back to the Future video essay that I took from concept and script through presentation, editing, graphics, thumbnail design, and publishing.",
+      "One video. No established audience. 40,000 views in its first seven days. A Back to the Future video essay that I took from concept and script through presentation, editing, graphics, thumbnail design, and publishing.",
     role: [
       "Concept development and scripting",
       "On-camera presentation and green screen recording",
@@ -599,7 +599,7 @@ export const projects = [
       approach:
         "I developed the script, recorded the talking head against a green screen, and combined commentary, film clips, motion graphics, and visual jokes. I also created the thumbnail and published the finished piece on YouTube and my website.",
       result:
-        "Published on YouTube on November 5, 2026, the video passed 25,000 views by November 11, six days later. It started with no established audience and five views in its first hour.",
+        "Published on YouTube on November 5, 2026, the video reached 40,000 views in its first seven days. It started with no established audience and five views in its first hour. Views continued growing beyond that first-week milestone as of November 13, 2026.",
     },
     capabilities: [
       {
@@ -652,13 +652,13 @@ export const projects = [
     caseStudy: {
       overviewTitle: "From a Movie Question to a Finished Video",
       overview:
-        "This project follows the launch of a single YouTube video from a standing start. The piece explores the missing generation between Biff and Griff Tannen in Back to the Future. I handled the concept, script, on-camera presentation, edit, graphics, thumbnail, and publishing. With no established audience to build on, the video reached more than 25,000 views in its first six days.",
+        "This project follows the launch of a single YouTube video from a standing start. The piece explores the missing generation between Biff and Griff Tannen in Back to the Future. I handled the concept, script, on-camera presentation, edit, graphics, thumbnail, and publishing. With no established audience to build on, the video reached 40,000 views in its first seven days.",
       sections: [
         {
           eyebrow: "Audience Response",
-          title: "From No Audience to 25,000+ Views in Six Days",
+          title: "From No Audience to 40,000 Views in Seven Days",
           body:
-            "The video received five views in its first hour after publication on November 5. By November 11, 2026, it had passed 25,000 views. An analytics snapshot that day recorded 1,227 views in the most recent hour, showing how the momentum had grown over six days.",
+            "The video received five views in its first hour after publication on November 5. An analytics snapshot on November 11 recorded 1,227 views in the most recent hour. The video reached 40,000 views in its first seven days, and views continued growing beyond that milestone as of November 13, 2026.",
         },
       ],
     },
@@ -675,7 +675,7 @@ export const projects = [
     seo: {
       title: "YouTube Video Production Case Study | Nicholas Egner",
       description:
-        "One YouTube video. No established audience. 25,000+ views in six days. Explore Nicholas Egner's Back to the Future video production case study.",
+        "One YouTube video. No established audience. 40,000 views in its first seven days. Explore Nicholas Egner's Back to the Future video production case study.",
     },
   },
 ];
