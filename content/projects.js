@@ -658,7 +658,14 @@ export const projects = [
           eyebrow: "Audience Response",
           title: "From No Audience to 40,000 Views in Seven Days",
           body:
-            "The video received five views in its first hour after publication on November 5. An analytics snapshot on November 11 recorded 1,227 views in the most recent hour. The video reached 40,000 views in its first seven days, and views continued growing beyond that milestone as of November 13, 2026.",
+            "The video received five views in its first hour after publication on November 5. An analytics snapshot on November 11 recorded 1,227 views in the most recent hour. The video reached 40,000 views in its first seven days, and views continued growing beyond that milestone. The audience metrics below were recorded on November 13, 2026.",
+          items: [
+            "5.4% thumbnail click-through rate",
+            "440 likes",
+            "10 dislikes",
+            "82 subscribers",
+            "161 comments",
+          ],
         },
       ],
     },
