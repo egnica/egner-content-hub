@@ -2208,10 +2208,10 @@ If you’re thinking about improving how your business shows up online, this is 
     canonicalSite: "nicholasegner",
     title: "Building My Own Social Media Hub",
     description:
-      "Why I started building my own social media management hub, how Facebook and Instagram publishing work today, and how I’m using AWS to add reliable scheduling and automation.",
+      "Why I built my own multi-client social media hub, from verified Facebook and Instagram publishing to LinkedIn, YouTube, and Google Business Profile integrations.",
     date: "2026-10-05",
     published_time: "2026-10-05T21:04:58Z",
-    modified_time: null,
+    modified_time: "2026-11-15T17:55:23Z",
     published: true,
     featured: false,
     keywords: [
@@ -2219,6 +2219,9 @@ If you’re thinking about improving how your business shows up online, this is 
       "content scheduling",
       "Facebook API",
       "Instagram API",
+      "LinkedIn publishing",
+      "YouTube publishing",
+      "Google Business Profile",
       "AWS EventBridge",
       "AWS Lambda",
       "custom software",
@@ -2371,6 +2374,53 @@ Every time I publish something, connect another account, or find another annoyin
 So I’m going to start sharing more of that process as the project develops. The things that work, the things that don’t, and some of the decisions happening along the way.
 
 This is still very much a prototype. But it’s becoming a useful one!`,
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Update: November 15, 2026",
+      },
+      {
+        type: "paragraph",
+        text: `It's been a little over a month since I wrote this, and the project has moved quite a bit. I'm leaving the original story above intact because it captures where I was in early October. Here's what has changed since then.`,
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "From two platforms to five",
+      },
+      {
+        type: "paragraph",
+        text: `Facebook and Instagram are still the most thoroughly tested parts of the system. I've published real text, links, images, and video to Facebook, along with single images, carousels, and Reels to Instagram. I've also tested scheduled publishing with the browser closed. AWS EventBridge and Lambda do the work in the background, and the app keeps a record of what was published and where.`,
+      },
+      {
+        type: "paragraph",
+        text: `LinkedIn is now connected too. I've published a real post to my personal profile from the hub, and I've added support for richer media and scheduling. Some of those newer publishing paths still need real-world verification. I'm not interested in filling my professional feed with fake posts just to check off tests. Company Pages also have their own API access hurdles, so that part isn't finished.`,
+      },
+      {
+        type: "paragraph",
+        text: `YouTube has been another interesting addition. The hub now has a channel connection and a YouTube-specific editor, and I've successfully uploaded a real Private Short. I've been working through the details of video uploads, metadata, thumbnails, playlists, and scheduling. Some of that is implemented but still needs final live checks, especially around how YouTube processes media after an upload.`,
+      },
+      {
+        type: "paragraph",
+        text: `Google Business Profile has probably been the most stubborn integration so far. The account connection and post editor are in place, and I've been building the publishing side. But connecting an account and seeing a healthy status is not the same thing as proving a post is live. Text and call-to-action publishing, image handling, and reliable links back to the exact post still need verification before I'll call that integration complete.`,
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "The hard part isn't the dashboard",
+      },
+      {
+        type: "paragraph",
+        text: `What I've learned is that making a place to write five versions of a post isn't the hard part. Each platform has its own permissions, media rules, authentication quirks, and failure cases. I want to know not only that I clicked Publish, but whether the content actually made it to the right account, whether the schedule ran without my browser open, and whether I can find the finished post afterward.`,
+      },
+      {
+        type: "paragraph",
+        text: `That keeps bringing me back to the original idea: start with one useful piece of content, adapt it for each destination, and manage the whole process without jumping between a pile of tabs and subscriptions. The next priorities are finishing the Google Business publishing checks and proving the remaining LinkedIn and YouTube scheduling workflows with real content. Blog publishing, client approvals, and reporting are still on the longer-term list.`,
+      },
+      {
+        type: "paragraph",
+        text: `I'm building this while using it, which means the rough edges are pretty easy to find. It's still a work in progress, but it's a much more capable one than it was when I published this post in October.`,
       },
     ],
   },
