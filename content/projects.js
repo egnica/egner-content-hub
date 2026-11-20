@@ -637,7 +637,8 @@ export const projects = [
       type: "image",
       src: "https://nciholasegner.s3.us-east-2.amazonaws.com/blog/who_his_dad_thumb.webp",
       alt: "Biff and Griff Tannen thumbnail for the Back to the Future video essay",
-      caption: "Biff Had Kids? Who Is Griff's Dad? A Back to the Future video essay.",
+      caption:
+        "Biff Had Kids? Who Is Griff's Dad? A Back to the Future video essay.",
     },
     links: [
       {
@@ -664,8 +665,7 @@ export const projects = [
         {
           eyebrow: "Audience Response",
           title: "From No Audience to 40,000 Views in Seven Days",
-          body:
-            "The video received five views in its first hour after publication on November 5. An analytics snapshot on November 11 recorded 1,227 views in the most recent hour. The video reached 40,000 views in its first seven days, and views continued growing beyond that milestone. The audience metrics below were recorded on November 13, 2026.",
+          body: "The video received five views in its first hour after publication on November 5. An analytics snapshot on November 11 recorded 1,227 views in the most recent hour. The video reached 40,000 views in its first seven days, and views continued growing beyond that milestone. The audience metrics below were recorded on November 13, 2026.",
           items: [
             "5.4% thumbnail click-through rate",
             "440 likes",
@@ -683,7 +683,8 @@ export const projects = [
         poster:
           "https://nciholasegner.s3.us-east-2.amazonaws.com/blog/who_his_dad_thumb.webp",
         alt: "Watch Biff Had Kids? Who Is Griff's Dad? by Nicholas Egner",
-        caption: "Watch the complete 3:53 video: Biff Had Kids? Who Is Griff's Dad?",
+        caption:
+          "Watch the complete 3:53 video: Biff Had Kids? Who Is Griff's Dad?",
       },
     ],
     seo: {
@@ -693,49 +694,56 @@ export const projects = [
     },
   },
   {
-    "title": "BusinessCRM",
-    "slug": "business-crm",
-    "sites": [
-      "nicholasegner"
-    ],
-    "eyebrow": "Relationship Management & Outreach System",
-    "year": "2026",
-    "summary": "A custom CRM that began as a place to capture connections and clients, then grew into a working system for contact research, personalized email, newsletters, printed letters, and outreach history.",
-    "role": [
+    title: "BusinessCRM",
+    slug: "business-crm",
+    sites: ["nicholasegner"],
+    eyebrow: "Relationship Management & Outreach System",
+    year: "2026",
+    summary:
+      "A custom CRM that began as a place to capture connections and clients, then grew into a working system for contact research, personalized email, newsletters, printed letters, and outreach history.",
+    role: [
       "Product planning and workflow design",
       "Full-stack application development",
       "Email and direct-mail integration",
       "Contact import and data management",
-      "Activity tracking and delivery reliability"
+      "Activity tracking and delivery reliability",
     ],
-    "preview": {
-      "problem": "I needed one reliable place to keep track of people I met, prospective clients, and the next step in each relationship. As outreach grew, contacts, email, research, and printed letters became difficult to manage across separate tools.",
-      "approach": "I built a contact-centered application and expanded it in stages: structured records and follow-ups, CSV import and duplicate review, an Email Hub for one-to-one and campaign messages, a reviewed newsletter workflow, and Lob-powered physical letters. Delivery events and response signals flow back into the CRM.",
-      "result": "The CRM now supports an end-to-end outreach workflow: capture a connection, research the opportunity, choose an appropriate message, send email or a printed letter, and review what happened afterward. It remains a tool I actively develop around my own business."
+    preview: {
+      problem:
+        "I needed one reliable place to keep track of people I met, prospective clients, and the next step in each relationship. As outreach grew, contacts, email, research, and printed letters became difficult to manage across separate tools.",
+      approach:
+        "I built a contact-centered application and expanded it in stages: structured records and follow-ups, CSV import and duplicate review, an Email Hub for one-to-one and campaign messages, a reviewed newsletter workflow, and Lob-powered physical letters. Delivery events and response signals flow back into the CRM.",
+      result:
+        "The CRM now supports an end-to-end outreach workflow: capture a connection, research the opportunity, choose an appropriate message, send email or a printed letter, and review what happened afterward. It remains a tool I actively develop around my own business.",
     },
-    "capabilities": [
+    capabilities: [
       {
-        "title": "Contacts & Follow-Ups",
-        "summary": "Keep connection and client records together with search, tags, follow-up dates, CSV import, duplicate checks, and recoverable contact drafts."
+        title: "Contacts & Follow-Ups",
+        summary:
+          "Keep connection and client records together with search, tags, follow-up dates, CSV import, duplicate checks, and recoverable contact drafts.",
       },
       {
-        "title": "Email Hub & Newsletters",
-        "summary": "Compose branded HTML email, test templates, send individual or selected-contact messages, and review eligible recipients before sending or scheduling a newsletter through Resend."
+        title: "Email Hub & Newsletters",
+        summary:
+          "Compose branded HTML email, test templates, send individual or selected-contact messages, and review eligible recipients before sending or scheduling a newsletter through Resend.",
       },
       {
-        "title": "Printed Letters",
-        "summary": "Create personalized letters through Lob with an editable address and letter body, PDF proof review, send history, and mailing-status updates."
+        title: "Printed Letters",
+        summary:
+          "Create personalized letters through Lob with an editable address and letter body, PDF proof review, send history, and mailing-status updates.",
       },
       {
-        "title": "Activity & Delivery History",
-        "summary": "Process Resend webhook events into email history with delivery status, opens, clicked URLs, timestamps, and likely automated engagement flags, alongside letter history and provider status. Unsubscribe and recipient checks protect future newsletter sends."
+        title: "Activity & Delivery History",
+        summary:
+          "Process Resend webhook events into email history with delivery status, opens, clicked URLs, timestamps, and likely automated engagement flags, alongside letter history and provider status. Unsubscribe and recipient checks protect future newsletter sends.",
       },
       {
-        "title": "Prospect Research",
-        "summary": "Research property-owner and business opportunities, retain prospect records, and prepare tailored outreach before promoting a qualified lead into the contact directory."
-      }
+        title: "Prospect Research",
+        summary:
+          "Research property-owner and business opportunities, retain prospect records, and prepare tailored outreach before promoting a qualified lead into the contact directory.",
+      },
     ],
-    "stack": [
+    stack: [
       "nextjs",
       "react",
       "mongodb",
@@ -743,116 +751,125 @@ export const projects = [
       "lob",
       "amplify",
       "webhooks",
-      "restful"
+      "restful",
     ],
-    "heroMedia": {
-      "type": "image",
-      "src": "",
-      "alt": "Wide, anonymized screenshot of the BusinessCRM contact workspace showing the connection directory, follow-up information, and an open contact record in the dark interface.",
-      "caption": "A contact-centered workspace for relationships and outreach."
+    heroMedia: {
+      type: "image",
+      src: "https://nciholasegner.s3.us-east-2.amazonaws.com/website_content/crm-1.webp",
+      alt: "Wide, anonymized screenshot of the BusinessCRM contact workspace showing the connection directory, follow-up information, and an open contact record in the dark interface.",
+      caption: "A contact-centered workspace for relationships and outreach.",
     },
-    "caseStudy": {
-      "overviewTitle": "From a Contact List to an Outreach System",
-      "overview": "BusinessCRM started with a practical question: how could I keep track of people I had met, clients I worked with, and the follow-up each relationship deserved? I built the first version around contact records. As my business needs changed, I added tools for researching prospects, sending personal and campaign email, managing newsletters, creating printed letters, and seeing the results in one place.",
-      "sections": [
+    caseStudy: {
+      overviewTitle: "From a Contact List to an Outreach System",
+      overview:
+        "BusinessCRM started with a practical question: how could I keep track of people I had met, clients I worked with, and the follow-up each relationship deserved? I built the first version around contact records. As my business needs changed, I added tools for researching prospects, sending personal and campaign email, managing newsletters, creating printed letters, and seeing the results in one place.",
+      sections: [
         {
-          "eyebrow": "01 / Foundation",
-          "title": "Keep the Relationship in View",
-          "body": "The contact directory is the center of the application. Records hold the information and context needed to follow up, while search, filters, tags, and dates help turn a growing list into a usable work queue. CSV import includes field mapping, preview, duplicate handling, and an import history so contacts can be added with context."
+          eyebrow: "01 / Foundation",
+          title: "Keep the Relationship in View",
+          body: "The contact directory is the center of the application. Records hold the information and context needed to follow up, while search, filters, tags, and dates help turn a growing list into a usable work queue. CSV import includes field mapping, preview, duplicate handling, and an import history so contacts can be added with context.",
         },
         {
-          "eyebrow": "02 / Email",
-          "title": "Make Outreach Personal and Reviewable",
-          "body": "The Email Hub supports individual HTML messages, selected-contact campaigns, template preview and testing, and a newsletter workflow. Before a newsletter goes out, I can review recipients and exclusions, choose the sender and subject, send a personalized test, and send now or schedule. History records provider activity, clicked URLs and times; likely automated opens or clicks can be labeled so I do not mistake them for a person's response."
+          eyebrow: "02 / Email",
+          title: "Make Outreach Personal and Reviewable",
+          body: "The Email Hub supports individual HTML messages, selected-contact campaigns, template preview and testing, and a newsletter workflow. Before a newsletter goes out, I can review recipients and exclusions, choose the sender and subject, send a personalized test, and send now or schedule. History records provider activity, clicked URLs and times; likely automated opens or clicks can be labeled so I do not mistake them for a person's response.",
         },
         {
-          "eyebrow": "03 / Direct Mail",
-          "title": "Bring Printed Letters into the Same Workflow",
-          "body": "For opportunities where a physical letter makes more sense, I built a Lob letter composer with address editing and a proof-first review. The app records letters and surfaces Lob status updates and a per-letter timeline. This connects offline outreach back to the same records used for research and email."
+          eyebrow: "03 / Direct Mail",
+          title: "Bring Printed Letters into the Same Workflow",
+          body: "For opportunities where a physical letter makes more sense, I built a Lob letter composer with address editing and a proof-first review. The app records letters and surfaces Lob status updates and a per-letter timeline. This connects offline outreach back to the same records used for research and email.",
         },
         {
-          "eyebrow": "04 / Reliability",
-          "title": "Make Important Actions Safer to Repeat",
-          "body": "Contact import and saving, newsletter recipient review, unsubscribe checks, and send recovery were designed to reduce accidental duplicates or sends to the wrong people. Provider results and activity history remain available after the browser is closed or refreshed."
-        }
-      ]
+          eyebrow: "04 / Reliability",
+          title: "Make Important Actions Safer to Repeat",
+          body: "Contact import and saving, newsletter recipient review, unsubscribe checks, and send recovery were designed to reduce accidental duplicates or sends to the wrong people. Provider results and activity history remain available after the browser is closed or refreshed.",
+        },
+      ],
     },
-    "media": [
+    media: [
       {
-        "type": "image",
-        "src": "",
-        "alt": "Anonymized screenshot of the BusinessCRM Email Hub showing a branded HTML message or newsletter preview beside sender and recipient review controls.",
-        "caption": "Email composition and recipient review."
+        type: "image",
+        src: "",
+        alt: "Anonymized screenshot of the BusinessCRM Email Hub showing a branded HTML message or newsletter preview beside sender and recipient review controls.",
+        caption: "Email composition and recipient review.",
       },
       {
-        "type": "image",
-        "src": "",
-        "alt": "Anonymized screenshot of BusinessCRM Email History showing delivery and engagement events, clicked link URLs, event timestamps, and a Bot likely label.",
-        "caption": "Email activity and click history."
+        type: "image",
+        src: "",
+        alt: "Anonymized screenshot of BusinessCRM Email History showing delivery and engagement events, clicked link URLs, event timestamps, and a Bot likely label.",
+        caption: "Email activity and click history.",
       },
       {
-        "type": "image",
-        "src": "",
-        "alt": "Anonymized screenshot of the BusinessCRM Lob letter composer showing the editable letter and mailing addresses with its PDF proof, or the letter's delivery-status timeline.",
-        "caption": "Printed-letter proof and status tracking."
-      }
+        type: "image",
+        src: "",
+        alt: "Anonymized screenshot of the BusinessCRM Lob letter composer showing the editable letter and mailing addresses with its PDF proof, or the letter's delivery-status timeline.",
+        caption: "Printed-letter proof and status tracking.",
+      },
     ],
-    "links": [
+    links: [
       {
-        "label": "View Source",
-        "url": "https://github.com/egnica/BusinessCRM",
-        "type": "source"
-      }
+        label: "View Source",
+        url: "https://github.com/egnica/BusinessCRM",
+        type: "source",
+      },
     ],
-    "seo": {
-      "title": "BusinessCRM Case Study | Nicholas Egner",
-      "description": "How Nicholas Egner built a custom CRM for contacts, prospect research, personalized email, newsletters, printed letters, and outreach history."
-    }
+    seo: {
+      title: "BusinessCRM Case Study | Nicholas Egner",
+      description:
+        "How Nicholas Egner built a custom CRM for contacts, prospect research, personalized email, newsletters, printed letters, and outreach history.",
+    },
   },
   {
-    "title": "Social Media Content Hub",
-    "slug": "social-media-content-hub",
-    "sites": [
-      "nicholasegner"
-    ],
-    "eyebrow": "Multi-Client Content & Publishing System",
-    "year": "2026",
-    "summary": "A custom publishing workspace that turns one source content package into channel-specific versions, connects client accounts, and coordinates posting, scheduling, and results across social platforms.",
-    "role": [
+    title: "Social Media Content Hub",
+    slug: "social-media-content-hub",
+    sites: ["nicholasegner"],
+    eyebrow: "Multi-Client Content & Publishing System",
+    year: "2026",
+    summary:
+      "A custom publishing workspace that turns one source content package into channel-specific versions, connects client accounts, and coordinates posting, scheduling, and results across social platforms.",
+    role: [
       "Product strategy and workflow design",
       "Full-stack application development",
       "Platform connection and publishing integrations",
       "Media handling and scheduling architecture",
-      "Client-scoped content management"
+      "Client-scoped content management",
     ],
-    "preview": {
-      "problem": "Creating a post for several clients and platforms meant repeating copy and media work, then tracking account access, timing, and results in different places. Each destination also has different requirements.",
-      "approach": "I built a Master Content workflow for reusable text and private media, then added independent platform versions, client-scoped account connections, destination previews, direct publishing, durable Publish History, and background scheduling.",
-      "result": "The hub has verified Facebook and Instagram publishing and browser-closed scheduling, plus working LinkedIn personal-profile publishing, a verified private YouTube Short upload, and Google Business Profile text and image posting. Some provider-specific scheduling and live checks remain in progress."
+    preview: {
+      problem:
+        "Creating a post for several clients and platforms meant repeating copy and media work, then tracking account access, timing, and results in different places. Each destination also has different requirements.",
+      approach:
+        "I built a Master Content workflow for reusable text and private media, then added independent platform versions, client-scoped account connections, destination previews, direct publishing, durable Publish History, and background scheduling.",
+      result:
+        "The hub has verified Facebook and Instagram publishing and browser-closed scheduling, plus working LinkedIn personal-profile publishing, a verified private YouTube Short upload, and Google Business Profile text and image posting. Some provider-specific scheduling and live checks remain in progress.",
     },
-    "capabilities": [
+    capabilities: [
       {
-        "title": "Master Content & Platform Versions",
-        "summary": "Create source content once, attach and arrange private images or videos, then customize and validate independent versions for each connected destination."
+        title: "Master Content & Platform Versions",
+        summary:
+          "Create source content once, attach and arrange private images or videos, then customize and validate independent versions for each connected destination.",
       },
       {
-        "title": "Client-Scoped Social Accounts",
-        "summary": "Connect accounts to the right client through direct authorization or a secure emailed connection request, with account health and access checks."
+        title: "Client-Scoped Social Accounts",
+        summary:
+          "Connect accounts to the right client through direct authorization or a secure emailed connection request, with account health and access checks.",
       },
       {
-        "title": "Publishing & Scheduling",
-        "summary": "Preview and publish supported formats, or schedule destination versions using EventBridge Scheduler and AWS Lambda for background release in the client's timezone; recorded results link to the exact published post where verified."
+        title: "Publishing & Scheduling",
+        summary:
+          "Preview and publish supported formats, or schedule destination versions using EventBridge Scheduler and AWS Lambda for background release in the client's timezone; recorded results link to the exact published post where verified.",
       },
       {
-        "title": "Publish History & Safeguards",
-        "summary": "Keep provider results, attempt history, and revision-bound schedule records so edited or repeated submissions are handled deliberately."
+        title: "Publish History & Safeguards",
+        summary:
+          "Keep provider results, attempt history, and revision-bound schedule records so edited or repeated submissions are handled deliberately.",
       },
       {
-        "title": "Growing Platform Coverage",
-        "summary": "Facebook and Instagram are verified end to end. LinkedIn personal publishing, a private YouTube Short upload, and Google Business Profile posts have been demonstrated while remaining live checks continue."
-      }
+        title: "Growing Platform Coverage",
+        summary:
+          "Facebook and Instagram are verified end to end. LinkedIn personal publishing, a private YouTube Short upload, and Google Business Profile posts have been demonstrated while remaining live checks continue.",
+      },
     ],
-    "stack": [
+    stack: [
       "nextjs",
       "react",
       "mongodb",
@@ -863,72 +880,74 @@ export const projects = [
       "social-media-apis",
       "aws-lambda-eventbridge",
       "webhooks",
-      "restful"
+      "restful",
     ],
-    "heroMedia": {
-      "type": "image",
-      "src": "",
-      "alt": "Wide screenshot of Social Media Content Hub's Master Content editor with the client selector, attached media tray, connected account cards, and platform-specific post tabs visible.",
-      "caption": "One source content package, adapted for each destination."
+    heroMedia: {
+      type: "image",
+      src: "",
+      alt: "Wide screenshot of Social Media Content Hub's Master Content editor with the client selector, attached media tray, connected account cards, and platform-specific post tabs visible.",
+      caption: "One source content package, adapted for each destination.",
     },
-    "caseStudy": {
-      "overviewTitle": "One Source, Several Destinations",
-      "overview": "I built the Social Media Content Hub to solve a publishing problem I kept encountering: the core story is often the same, but every client account and social platform needs its own copy, media, validation, and timing. The application starts with Master Content, lets me prepare independent versions for connected destinations, and records what happened when each version is published.",
-      "sections": [
+    caseStudy: {
+      overviewTitle: "One Source, Several Destinations",
+      overview:
+        "I built the Social Media Content Hub to solve a publishing problem I kept encountering: the core story is often the same, but every client account and social platform needs its own copy, media, validation, and timing. The application starts with Master Content, lets me prepare independent versions for connected destinations, and records what happened when each version is published.",
+      sections: [
         {
-          "eyebrow": "01 / Content",
-          "title": "Create Once, Adapt Deliberately",
-          "body": "A Master Content record holds source copy and privately stored media. From that starting point, I can create platform versions that inherit useful defaults while preserving destination-specific changes. The editor validates each selected channel and previews the version that will actually be published."
+          eyebrow: "01 / Content",
+          title: "Create Once, Adapt Deliberately",
+          body: "A Master Content record holds source copy and privately stored media. From that starting point, I can create platform versions that inherit useful defaults while preserving destination-specific changes. The editor validates each selected channel and previews the version that will actually be published.",
         },
         {
-          "eyebrow": "02 / Access",
-          "title": "Keep the Right Account with the Right Client",
-          "body": "The app separates client workspaces and social connections. It supports direct authorization and secure emailed connection requests where implemented, account selection, health checks, and scoped credentials. Private media stays in S3 instead of being exposed through a public bucket."
+          eyebrow: "02 / Access",
+          title: "Keep the Right Account with the Right Client",
+          body: "The app separates client workspaces and social connections. It supports direct authorization and secure emailed connection requests where implemented, account selection, health checks, and scoped credentials. Private media stays in S3 instead of being exposed through a public bucket.",
         },
         {
-          "eyebrow": "03 / Publishing",
-          "title": "Know What Was Sent and Where",
-          "body": "Facebook Pages and Instagram Professional accounts have been tested with real publishing and scheduled posts after the browser was closed. LinkedIn personal-profile publishing, a private YouTube Short upload, and Google Business Profile text, CTA, and image updates have also been exercised. Publish History preserves remote results and exact links where available."
+          eyebrow: "03 / Publishing",
+          title: "Know What Was Sent and Where",
+          body: "Facebook Pages and Instagram Professional accounts have been tested with real publishing and scheduled posts after the browser was closed. LinkedIn personal-profile publishing, a private YouTube Short upload, and Google Business Profile text, CTA, and image updates have also been exercised. Publish History preserves remote results and exact links where available.",
         },
         {
-          "eyebrow": "04 / In Progress",
-          "title": "Extend Coverage with Real-World Checks",
-          "body": "Google Business Profile background scheduling has been deployed but its live browser-closed release still needs confirmation. Additional LinkedIn media and scheduled publishing and YouTube scheduling have pending live checks; TikTok and broader approval and reporting workflows are later phases."
-        }
-      ]
+          eyebrow: "04 / In Progress",
+          title: "Extend Coverage with Real-World Checks",
+          body: "Google Business Profile background scheduling has been deployed but its live browser-closed release still needs confirmation. Additional LinkedIn media and scheduled publishing and YouTube scheduling have pending live checks; TikTok and broader approval and reporting workflows are later phases.",
+        },
+      ],
     },
-    "media": [
+    media: [
       {
-        "type": "image",
-        "src": "",
-        "alt": "Screenshot of the Social Media Content Hub Master Content editor showing one media tray and distinct Facebook and Instagram platform versions, with client names or private details hidden.",
-        "caption": "Master Content and destination-specific editing."
+        type: "image",
+        src: "",
+        alt: "Screenshot of the Social Media Content Hub Master Content editor showing one media tray and distinct Facebook and Instagram platform versions, with client names or private details hidden.",
+        caption: "Master Content and destination-specific editing.",
       },
       {
-        "type": "image",
-        "src": "",
-        "alt": "Screenshot of the Social Media Content Hub publishing controls showing a selected connected account, post preview, client-local schedule time, and Publish now or Schedule actions.",
-        "caption": "Preview and scheduling controls."
+        type: "image",
+        src: "",
+        alt: "Screenshot of the Social Media Content Hub publishing controls showing a selected connected account, post preview, client-local schedule time, and Publish now or Schedule actions.",
+        caption: "Preview and scheduling controls.",
       },
       {
-        "type": "image",
-        "src": "",
-        "alt": "Screenshot of Social Media Content Hub Publish History showing successful Facebook or Instagram posts with timestamps and exact View Post links, with tokens and client-private details hidden.",
-        "caption": "Recorded publishing results."
-      }
+        type: "image",
+        src: "",
+        alt: "Screenshot of Social Media Content Hub Publish History showing successful Facebook or Instagram posts with timestamps and exact View Post links, with tokens and client-private details hidden.",
+        caption: "Recorded publishing results.",
+      },
     ],
-    "links": [
+    links: [
       {
-        "label": "View Source",
-        "url": "https://github.com/egnica/content-social-hub",
-        "type": "source"
-      }
+        label: "View Source",
+        url: "https://github.com/egnica/content-social-hub",
+        type: "source",
+      },
     ],
-    "seo": {
-      "title": "Social Media Content Hub Case Study | Nicholas Egner",
-      "description": "A multi-client content and social publishing system for Master Content, platform versions, private media, account connections, posting, scheduling, and results."
-    }
-  }
+    seo: {
+      title: "Social Media Content Hub Case Study | Nicholas Egner",
+      description:
+        "A multi-client content and social publishing system for Master Content, platform versions, private media, account connections, posting, scheduling, and results.",
+    },
+  },
 ];
 
 export const projectsBySlug = Object.fromEntries(
