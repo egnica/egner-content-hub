@@ -61,6 +61,7 @@ export const projects = [
       "youtube",
       "premiere",
       "aftereffects",
+      "video-production",
     ],
 
     heroMedia: {
@@ -623,7 +624,13 @@ export const projects = [
           "Created the thumbnail, published the video on YouTube, and connected it to a website watch page, blog post, and video portfolio.",
       },
     ],
-    stack: ["premiere", "aftereffects", "photoshop", "youtube"],
+    stack: [
+      "premiere",
+      "aftereffects",
+      "photoshop",
+      "youtube",
+      "video-production",
+    ],
     image:
       "https://nciholasegner.s3.us-east-2.amazonaws.com/blog/who_his_dad_thumb.webp",
     heroMedia: {
@@ -721,7 +728,7 @@ export const projects = [
       },
       {
         "title": "Activity & Delivery History",
-        "summary": "Review email delivery, opens, clicked links, timestamps, and likely automated engagement alongside letter history and provider status. Unsubscribe and recipient checks protect future newsletter sends."
+        "summary": "Process Resend webhook events into email history with delivery status, opens, clicked URLs, timestamps, and likely automated engagement flags, alongside letter history and provider status. Unsubscribe and recipient checks protect future newsletter sends."
       },
       {
         "title": "Prospect Research",
@@ -734,7 +741,9 @@ export const projects = [
       "mongodb",
       "resend",
       "lob",
-      "amplify"
+      "amplify",
+      "webhooks",
+      "restful"
     ],
     "heroMedia": {
       "type": "image",
@@ -832,7 +841,7 @@ export const projects = [
       },
       {
         "title": "Publishing & Scheduling",
-        "summary": "Preview and publish supported formats, or schedule destination versions for background release in the client's timezone; recorded results link to the exact published post where verified."
+        "summary": "Preview and publish supported formats, or schedule destination versions using EventBridge Scheduler and AWS Lambda for background release in the client's timezone; recorded results link to the exact published post where verified."
       },
       {
         "title": "Publish History & Safeguards",
@@ -849,7 +858,12 @@ export const projects = [
       "mongodb",
       "amazons3",
       "amplify",
-      "resend"
+      "resend",
+      "oauth",
+      "social-media-apis",
+      "aws-lambda-eventbridge",
+      "webhooks",
+      "restful"
     ],
     "heroMedia": {
       "type": "image",
