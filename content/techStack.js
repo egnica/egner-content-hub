@@ -100,6 +100,13 @@ export const technologies = {
     "image": "<svg width='500' height='500' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><rect width='24' height='24' rx='5' fill='#fff'/><path fill='#111' d='M14.679 0c4.648 0 7.413 2.765 7.413 6.434s-2.765 6.434-7.413 6.434H12.33L24 24h-8.245l-8.88-8.44c-.636-.588-.93-1.273-.93-1.86 0-.831.587-1.565 1.713-1.883l4.574-1.224c1.737-.465 2.936-1.81 2.936-3.572 0-2.153-1.761-3.4-3.939-3.4H0V0z'/></svg>",
     "category": "Back End"
   },
+  "stripe": {
+    "name": "Stripe",
+    "slug": "stripe",
+    "text": "I use Stripe to integrate secure, on-page payments into custom websites and applications. My work includes embedded card forms, Apple Pay and Google Pay options where available, custom payment amounts, and server-side PaymentIntents. I focus on checkout experiences that are straightforward to use without sending visitors away from the website.",
+    "image": "<svg width='500' height='500' viewBox='0 0 96 96' xmlns='http://www.w3.org/2000/svg'><rect x='3' y='3' width='90' height='90' rx='22' fill='#635BFF'/><path fill='#fff' transform='translate(10 9) scale(3.15)' d='M13.976 9.15c-2.11-.792-3.264-1.395-3.264-2.35 0-.802.638-1.24 1.788-1.24 2.107 0 4.27.794 5.772 1.474l.865-5.33C17.95 1.2 15.308.5 12.515.5 7.43.5 4.05 3.16 4.05 7.63c0 4.07 2.787 5.829 7.3 7.59 2.04.798 2.727 1.345 2.727 2.203 0 .882-.765 1.392-2.15 1.392-2.662 0-5.343-1.08-7.085-2.044L4 22.17c1.608.892 4.564 1.83 7.728 1.83 5.215 0 8.645-2.58 8.645-7.21 0-4.39-2.65-6.16-6.397-7.64Z'/></svg>",
+    "category": "Back End"
+  },
   "quo": {
     "name": "Quo",
     "slug": "quo",
