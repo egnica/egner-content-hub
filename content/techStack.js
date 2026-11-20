@@ -121,6 +121,48 @@ export const technologies = {
     "image": "<svg width='500' height='500' viewBox='0 0 96 96' xmlns='http://www.w3.org/2000/svg'><rect x='3' y='3' width='90' height='90' rx='22' fill='#2A45F9'/><rect x='19' y='27' width='58' height='42' rx='7' fill='none' stroke='#fff' stroke-width='6'/><path d='m22 32 26 20 26-20' fill='none' stroke='#fff' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/><path d='M63 61h12' stroke='#BBAAFF' stroke-width='6' stroke-linecap='round'/></svg>",
     "category": "Back End"
   },
+  "oauth": {
+    "name": "OAuth 2.0 & API Authentication",
+    "slug": "oauth",
+    "text": "I implement OAuth-based account connections and authenticated API integrations for custom web applications. My Social Media Hub uses client-scoped authorization flows, secure connection requests, protected token storage, account selection, and connection-health checks so publishing permissions stay tied to the correct client.",
+    "image": "<svg width='500' height='500' viewBox='0 0 96 96' xmlns='http://www.w3.org/2000/svg'><rect x='3' y='3' width='90' height='90' rx='22' fill='#2259A9'/><path d='M48 16 76 28v19c0 19-12 29-28 36-16-7-28-17-28-36V28z' fill='#fff' opacity='.94'/><path d='M48 29c-9 0-16 7-16 16 0 6 3 11 8 14v10h16V59c5-3 8-8 8-14 0-9-7-16-16-16z' fill='#2259A9'/><circle cx='48' cy='45' r='6' fill='#fff'/><path d='M48 51v11' stroke='#fff' stroke-width='4' stroke-linecap='round'/></svg>",
+    "category": "Back End"
+  },
+  "social-media-apis": {
+    "name": "Social Media APIs & Publishing",
+    "slug": "social-media-apis",
+    "text": "I integrate social publishing APIs across Facebook Pages, Instagram Professional accounts, LinkedIn, YouTube, and Google Business Profile. I build channel-specific editors, content validation, account access flows, publishing actions, and recorded results while accounting for each provider's different capabilities and approval requirements.",
+    "image": "<svg width='500' height='500' viewBox='0 0 96 96' xmlns='http://www.w3.org/2000/svg'><rect x='3' y='3' width='90' height='90' rx='22' fill='#167B95'/><circle cx='48' cy='48' r='13' fill='#fff'/><circle cx='24' cy='25' r='8' fill='#BCEBFF'/><circle cx='73' cy='24' r='8' fill='#BCEBFF'/><circle cx='75' cy='72' r='8' fill='#BCEBFF'/><circle cx='22' cy='73' r='8' fill='#BCEBFF'/><path d='m33 34 8 8m15 0 9-10m-9 23 10 10m-25-9-11 11' fill='none' stroke='#fff' stroke-width='5' stroke-linecap='round'/><path d='m44 41 13 7-13 7z' fill='#167B95'/></svg>",
+    "category": "Back End"
+  },
+  "webhooks": {
+    "name": "Webhooks & Event-Driven Workflows",
+    "slug": "webhooks",
+    "text": "I connect provider events to application workflows so systems can react to what happened after an action was submitted. In my CRM, webhook-based delivery and engagement signals feed readable email history, clicked-link details, timestamps, and likely-bot indicators. I also design background event processing with explicit status, retry, and duplicate-handling safeguards.",
+    "image": "<svg width='500' height='500' viewBox='0 0 96 96' xmlns='http://www.w3.org/2000/svg'><rect x='3' y='3' width='90' height='90' rx='22' fill='#6244B6'/><circle cx='28' cy='31' r='9' fill='#fff'/><circle cx='69' cy='33' r='9' fill='#fff'/><circle cx='49' cy='69' r='9' fill='#fff'/><path d='M38 28c12-6 23-3 29 6m3 10c4 12-4 22-16 27M40 71c-12-3-18-13-16-25' fill='none' stroke='#C9C1FF' stroke-width='6' stroke-linecap='round'/><path d='m60 25 8 10 5-11m-11 44-9 7 12 3M22 49l1-13-10 7' fill='none' stroke='#fff' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/></svg>",
+    "category": "Back End"
+  },
+  "aws-lambda-eventbridge": {
+    "name": "AWS Lambda & EventBridge",
+    "slug": "aws-lambda-eventbridge",
+    "text": "I use AWS Lambda and EventBridge Scheduler to run automated workflows on the server without depending on a browser staying open. In my Social Media Hub, scheduling triggers background publishing workers with timezone-aware release times, durable job state, missed-window handling, and safeguards against duplicate or uncertain submissions.",
+    "image": "<svg width='500' height='500' viewBox='0 0 96 96' xmlns='http://www.w3.org/2000/svg'><rect x='3' y='3' width='90' height='90' rx='22' fill='#C45D0A'/><path d='M30 22h15l21 51H53L39 37l-9 36H18z' fill='#fff'/><rect x='63' y='19' width='19' height='19' rx='4' fill='#FFCD85'/><path d='M67 25h11M67 29h11M67 33h8' stroke='#944100' stroke-width='2' stroke-linecap='round'/></svg>",
+    "category": "DevOps & Hosting"
+  },
+  "microsoft-365-exchange": {
+    "name": "Microsoft 365 & Exchange Online",
+    "slug": "microsoft-365-exchange",
+    "text": "I set up and troubleshoot Microsoft 365 and Exchange Online email for small businesses, including mailbox licensing, domain configuration, DNS records, Outlook setup, and IMAP migrations. My work also includes SPF, DKIM, and DMARC configuration and deliverability checks to make a domain-based email transition dependable.",
+    "image": "<svg width='500' height='500' viewBox='0 0 96 96' xmlns='http://www.w3.org/2000/svg'><rect x='3' y='3' width='90' height='90' rx='22' fill='#0B4E9C'/><rect x='17' y='18' width='24' height='24' fill='#F25022'/><rect x='45' y='18' width='24' height='24' fill='#7FBA00'/><rect x='17' y='46' width='24' height='24' fill='#00A4EF'/><rect x='45' y='46' width='24' height='24' fill='#FFB900'/><path d='M69 41h14v32H69z' fill='#fff'/><path d='M71 48h9m-9 8h9m-9 8h9' stroke='#0B4E9C' stroke-width='3'/></svg>",
+    "category": "DevOps & Hosting"
+  },
+  "video-production": {
+    "name": "Video Production & Capture",
+    "slug": "video-production",
+    "text": "I plan and capture original video for on-camera presentations, interviews, and screen-based demonstrations, including green-screen footage and OBS Studio recording workflows. I connect the capture process to post-production in Premiere Pro and After Effects so the resulting material works across websites, YouTube, and social video.",
+    "image": "<svg width='500' height='500' viewBox='0 0 96 96' xmlns='http://www.w3.org/2000/svg'><rect x='3' y='3' width='90' height='90' rx='22' fill='#1F2937'/><rect x='18' y='25' width='49' height='43' rx='8' fill='#fff'/><path d='m67 36 13-8v37l-13-8z' fill='#A5B4FC'/><circle cx='42' cy='47' r='13' fill='#1F2937'/><circle cx='42' cy='47' r='7' fill='#FF6B6B'/><path d='M22 78h52' stroke='#fff' stroke-width='4' stroke-linecap='round'/></svg>",
+    "category": "Creative / Design"
+  },
   "amplify": {
     "name": "AWS Amplify",
     "slug": "amplify",
